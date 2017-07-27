@@ -1,0 +1,22 @@
+#!/bin/bash
+
+cd ~/tools/stanford-parser-2011-09-14
+DIR=/disk2/work/amr/data/LDC-2013-Sep
+
+java -mx500m -cp "stanford-parser.jar:" edu.stanford.nlp.trees.EnglishGrammaticalStructure -basic -treeFile $DIR/amr-release-proxy.train.snt.tree -conllx > $DIR/amr-release-proxy.train.snt.deps
+java -mx500m -cp "stanford-parser.jar:" edu.stanford.nlp.trees.EnglishGrammaticalStructure -basic -treeFile $DIR/amr-release-proxy.dev.snt.tree -conllx > $DIR/amr-release-proxy.dev.snt.deps
+java -mx500m -cp "stanford-parser.jar:" edu.stanford.nlp.trees.EnglishGrammaticalStructure -basic -treeFile $DIR/amr-release-proxy.test.snt.tree -conllx > $DIR/amr-release-proxy.test.snt.deps
+
+cp amr-release-proxy.train.snt.deps amr-release-proxy.train.snt.deps_ORIG
+cp amr-release-proxy.dev.snt.deps amr-release-proxy.dev.snt.deps_ORIG
+cp amr-release-proxy.test.snt.deps amr-release-proxy.test.snt.deps_ORIG
+
+sed 's/-LRB-/(/g; s/-RRB-/)/g; s#\\/#/#g' amr-release-proxy.train.snt.deps_ORIG > amr-release-proxy.train.snt.deps
+sed 's/-LRB-/(/g; s/-RRB-/)/g; s#\\/#/#g' amr-release-proxy.dev.snt.deps_ORIG > amr-release-proxy.dev.snt.deps
+sed 's/-LRB-/(/g; s/-RRB-/)/g; s#\\/#/#g' amr-release-proxy.test.snt.deps_ORIG > amr-release-proxy.test.snt.deps
+
+./cmd.amr-release-proxy.train.snt.deps.strings
+./cmd.amr-release-proxy.dev.snt.deps.strings
+./cmd.amr-release-proxy.test.snt.deps.strings
+
+#diff amr-release-proxy.train.snt.tok.strings amr-release-proxy.train.snt.deps.strings | less

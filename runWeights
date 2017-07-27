@@ -1,0 +1,2 @@
+pypy ./lexweights.py -P -w weightfile1 weightfile2 -W /p/mt2/users/chung/cl14-data/training/training.chi /p/mt2/users/chung/cl14-data/training/training.eng -r file.ratio /p/mt2/users/chung/cl14-data/training/training.alignment.chi-eng 
+#./testOptParse.py -P -w weightfile1 weightfile2 -W test-extractor/c10 test-extractor/e10 -r ratiofile test-extractor/c-e.a10

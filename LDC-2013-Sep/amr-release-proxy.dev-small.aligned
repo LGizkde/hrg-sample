@@ -1,0 +1,953 @@
+# ::id PROXY_AFP_ENG_20070116_0147.1 ::date 2013-06-07T13:30:24 ::snt-type date ::annotator SDL-AMR-09 ::preferred
+# ::snt 2007-01-16
+# ::save-date Thu Jun 13, 2013 ::file PROXY_AFP_ENG_20070116_0147_1.txt
+# ::tok 2007-01-16
+# ::alignments 0-1|0+0.0+0.1+0.2 ::annotator Aligner v.02 ::date 2014-01-06T03:37:52.788
+(d / date-entity :year 2007 :month 1 :day 16)
+
+# ::id PROXY_AFP_ENG_20070116_0147.2 ::date 2013-06-07T13:30:56 ::snt-type country ::annotator SDL-AMR-09 ::preferred
+# ::snt Singapore (SG)
+# ::save-date Thu Jun 13, 2013 ::file PROXY_AFP_ENG_20070116_0147_2.txt
+# ::tok Singapore ( SG )
+# ::alignments 0-1|0+0.0+0.0.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:52.888
+(c / country :name (n / name :op1 "Singapore"))
+
+# ::id PROXY_AFP_ENG_20070116_0147.3 ::date 2013-06-08T06:31:29 ::snt-type topic ::annotator SDL-AMR-09 ::preferred
+# ::snt Crime; narcotics
+# ::save-date Thu Jun 13, 2013 ::file PROXY_AFP_ENG_20070116_0147_3.txt
+# ::tok Crime ; narcotics
+# ::alignments 1-2|0 2-3|0.1 0-1|0.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:52.907
+(a / and
+      :op1 (c / crime)
+      :op2 (n / narcotic))
+
+# ::id PROXY_AFP_ENG_20070116_0147.4 ::date 2013-06-08T06:43:30 ::snt-type summary ::annotator SDL-AMR-09 ::preferred
+# ::snt An Australian man was charged in Singapore with drug trafficking.
+# ::save-date Thu Jun 13, 2013 ::file PROXY_AFP_ENG_20070116_0147_4.txt
+# ::tok An Australian man was charged in Singapore with drug trafficking .
+# ::alignments 6-7|0.2+0.2.0+0.2.0.0 1-2|0.0.0+0.0.0.0+0.0.0.0.0 4-5|0 9-10|0.1 8-9|0.1.0 2-3|0.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:52.982
+(c / charge-05
+      :ARG1 (m / man
+            :mod (c3 / country :name (n2 / name :op1 "Australia")))
+      :ARG2 (t / traffic-00
+            :ARG1 (d / drug))
+      :location (c2 / country :name (n / name :op1 "Singapore")))
+
+# ::id PROXY_AFP_ENG_20070116_0147.5 ::date 2013-06-08T06:48:05 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Singapore's Central Narcotics Bureau said on 070116 in a statement that Australian Michael Karras was arrested on 070109 after being found in possession of 495 grams of cannabis.
+# ::save-date Mon Jul 15, 2013 ::file PROXY_AFP_ENG_20070116_0147_5.txt
+# ::tok Singapore 's Central Narcotics Bureau said on 070116 in a statement that Australian Michael Karras was arrested on 070109 after being found in possession of 495 grams of cannabis .
+# ::alignments 2-5|0.0+0.0.0+0.0.0.0+0.0.0.1+0.0.0.2 0-1|0.0.1+0.0.1.0+0.0.1.0.0 13-15|0.1.0+0.1.0.0+0.1.0.0.0+0.1.0.0.1 12-13|0.1.0.1+0.1.0.1.0+0.1.0.1.0.0 18-19|0.1.2+0.1.2.0+0.1.2.1+0.1.2.2 7-8|0.2+0.2.0+0.2.1+0.2.2 10-11|0 16-17|0.1 21-22|0.1.1 28-29|0.1.1.0.0 25-26|0.1.1.0.0.0.0 26-27|0.1.1.0.0.0+0.1.1.0.0.0.1 23-24|0.1.1.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.120
+(s / state-01
+  :ARG0 (g / government-organization
+          :name (n / name
+                  :op1 "Central"
+                  :op2 "Narcotics"
+                  :op3 "Bureau")
+          :poss (c / country
+                  :name (n2 / name
+                          :op1 "Singapore")))
+  :ARG1 (a / arrest-01
+          :ARG1 (p2 / person
+                  :name (n4 / name
+                          :op1 "Michael"
+                          :op2 "Karras")
+                  :mod (c3 / country
+                         :name (n5 / name
+                                 :op1 "Australia")))
+          :ARG2 (f / find-01
+                  :ARG1 (p / possess-01
+                          :ARG0 p2
+                          :ARG1 (c4 / cannabis
+                                  :quant (m2 / mass-quantity
+                                           :quant 495
+                                           :unit (g4 / gram)))))
+          :time (d / date-entity
+                  :day 9
+                  :month 1
+                  :year 2007))
+  :time (d3 / date-entity
+          :day 16
+          :month 1
+          :year 2007))
+
+# ::id PROXY_AFP_ENG_20070116_0147.6 ::date 2013-06-11T09:25:24 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt The statement said Karras was subsequently charged for the offence of trafficking in a controlled drug.
+# ::save-date Mon Jul 15, 2013 ::file PROXY_AFP_ENG_20070116_0147_6.txt
+# ::tok The statement said Karras was subsequently charged for the offence of trafficking in a controlled drug .
+# ::alignments 3-4|0.0.0+0.0.0.0+0.0.0.0.0 1-2|0 6-7|0.0 9-10|0.0.1 11-12|0.0.1.0 15-16|0.0.1.0.0 14-15|0.0.1.0.0.0 5-6|0.0.2 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.153
+(s / state-01
+  :ARG1 (c / charge-05
+          :ARG1 (p / person
+                  :name (n / name
+                          :op1 "Karras"))
+          :ARG2 (o / offence
+                  :mod (t / traffic-00
+                         :ARG1 (d2 / drug
+                                 :ARG1-of (c3 / control-01))))
+          :time (s2 / subsequent)))
+
+# ::id PROXY_AFP_ENG_20070116_0147.7 ::date 2013-06-11T09:52:17 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Karras faces at least 5 years' imprisonment and a minimum 5 strokes of the cane if convicted but would escape the death penalty sentence mandatory for anyone caught trafficking more than 500 grams of cannabis.
+# ::save-date Mon Jul 15, 2013 ::file PROXY_AFP_ENG_20070116_0147_7.txt
+# ::tok Karras faces at least 5 years ' imprisonment and a minimum 5 strokes of the cane if convicted but would escape the death penalty sentence mandatory for anyone caught trafficking more than 500 grams of cannabis .
+# ::alignments 0-1|0.0.0+0.0.0.0+0.0.0.0.0 18-19|0 20-21|0.1 22-23|0.1.0.0 25-26|0.1.0.1 27-28|0.1.0.1.0 28-29|0.1.0.1.0.0 29-30|0.1.0.1.0.0.0 35-36|0.1.0.1.0.0.0.0 32-33|0.1.0.1.0.0.0.0.0.0.0 33-34|0.1.0.1.0.0.0.0.0.0+0.1.0.1.0.0.0.0.0.0.1 1-2|0.0 8-9|0.0.1 17-18|0.0.1.2 15-16|0.0.1.1.0 10-11|0.0.1.1.1 4-5|0.0.1.1.1.0 11-12|0.0.1.0.0.0.0 5-6|0.0.1.0.0.0+0.0.1.0.0.0.1 23-24|0.1.0 30-31|0.1.0.1.0.0.0.0.0 7-8|0.0.1.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.226
+(c / contrast-01
+  :ARG1 (f / face-01
+          :ARG0 (p / person
+                  :name (n / name
+                          :op1 "Karras"))
+          :ARG1 (a / and
+                  :op1 (i / imprison-01
+                         :ARG1 p
+                         :ARG2 (a2 / at-least
+                                 :op1 (t / temporal-quantity
+                                        :quant 5
+                                        :unit (y / year))))
+                  :op2 (s / strike-01
+                         :ARG2 (c3 / cane)
+                         :quant (m / minimum
+                                  :op1 5))
+                  :condition (c2 / convict-01
+                               :ARG1 p)))
+  :ARG2 (e / escape-01
+          :ARG0 p
+          :ARG1 (p4 / penalize-01
+                  :instrument (d / die-01)
+                  :mod (m2 / mandatory
+                         :prep-for (a3 / anyone
+                                     :ARG1-of (c4 / catch-02
+                                                :ARG2 (t2 / traffic-00
+                                                        :ARG1 (c5 / cannabis
+                                                                :quant (m4 / more-than
+                                                                         :op1 (m5 / mass-quantity
+                                                                                :quant 500
+                                                                                :unit (g2 / gram)))))))))))
+
+# ::id PROXY_AFP_ENG_20070116_0147.8 ::date 2013-06-11T11:07:12 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt The arrest of Karras comes more than a year after the highly publicized hanging of Australian Nguyen Tuong van.
+# ::save-date Mon Jul 15, 2013 ::file PROXY_AFP_ENG_20070116_0147_8.txt
+# ::tok The arrest of Karras comes more than a year after the highly publicized hanging of Australian Nguyen Tuong van .
+# ::alignments 3-4|0.0.0+0.0.0.0+0.0.0.0.0 16-19|0.1.0.0.0+0.1.0.0.0.0+0.1.0.0.0.0.0+0.1.0.0.0.0.1+0.1.0.0.0.0.2 15-16|0.1.0.0.0.1+0.1.0.0.0.1.0+0.1.0.0.0.1.0.0 1-2|0.0 9-10|0.1 8-9|0.1.1.0+0.1.1.0.1 12-13|0.1.0 13-14|0.1.0.0 5-6|0.1.1 11-12|0.1.0.1 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.274
+(b / be-temporally-at-91
+  :ARG1 (a / arrest-01
+          :ARG1 (p2 / person
+                  :name (n3 / name
+                          :op1 "Karras")))
+  :ARG2 (a3 / after
+          :op1 (p4 / publicize-01
+                 :ARG1 (h4 / hang-01
+                         :ARG1 (p5 / person
+                                 :name (n4 / name
+                                         :op1 "Nguyen"
+                                         :op2 "Tuong"
+                                         :op3 "Van")
+                                 :mod (c3 / country
+                                        :name (n5 / name
+                                                :op1 "Australia"))))
+                 :degree (h3 / high))
+          :quant (m / more-than
+                   :op1 (t / temporal-quantity
+                          :quant 1
+                          :unit (y / year)))))
+
+# ::id PROXY_AFP_ENG_20070116_0147.9 ::date 2013-06-11T11:51:11 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Nguyen was executed in 051200 for trying to smuggle 400 grams of heroin via Singapore to Australia in 020000.
+# ::save-date Mon Jul 15, 2013 ::file PROXY_AFP_ENG_20070116_0147_9.txt
+# ::tok Nguyen was executed in 051200 for trying to smuggle 400 grams of heroin via Singapore to Australia in 020000 .
+# ::alignments 0-1|0.0+0.0.0+0.0.0.0 16-17|0.2.0.0.1+0.2.0.0.1.0+0.2.0.0.1.0.0 14-15|0.2.0.0.2+0.2.0.0.2.0+0.2.0.0.2.0.0 4-5|0.1+0.1.0+0.1.1 18-19|0.2.0.0.3+0.2.0.0.3.0 2-3|0 6-7|0.2.0 8-9|0.2.0.0 12-13|0.2.0.0.0 9-10|0.2.0.0.0.0.0 10-11|0.2.0.0.0.0+0.2.0.0.0.0.1 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.314
+(e / execute-01
+  :ARG1 (p2 / person
+          :name (n4 / name
+                  :op1 "Nguyen"))
+  :time (d3 / date-entity
+          :month 12
+          :year 2005)
+  :ARG1-of (c / cause-01
+             :ARG0 (t / try-01
+                     :ARG0 p2
+                     :ARG1 (s / smuggle-01
+                             :ARG1 (h / heroin
+                                     :quant (m / mass-quantity
+                                              :quant 400
+                                              :unit (g / gram)))
+                             :ARG3 (c4 / country
+                                     :name (n6 / name
+                                             :op1 "Australia"))
+                             :path (c3 / country
+                                     :name (n5 / name
+                                             :op1 "Singapore"))
+                             :time (d / date-entity
+                                     :year 2002)))))
+
+# ::id PROXY_AFP_ENG_20070116_0147.10 ::date 2013-06-11T15:07:39 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Nguyen's hanging despite heavy lobbying from the Australian government for Singapore to show clemency triggered public outrage in Australia where capital punishment is outlawed.
+# ::save-date Mon Jul 15, 2013 ::file PROXY_AFP_ENG_20070116_0147_10.txt
+# ::tok Nguyen 's hanging despite heavy lobbying from the Australian government for Singapore to show clemency triggered public outrage in Australia where capital punishment is outlawed .
+# ::alignments 0-1|0.0.0+0.0.0.0+0.0.0.0.0 11-12|0.0.1.2+0.0.1.2.0+0.0.1.2.0.0 19-20|0.1.1+0.1.1.0+0.1.1.0.0 15-16|0 17-18|0.1 24-25|0.1.1.1 21-22|0.1.1.1.0.0 16-17|0.1.0 2-3|0.0 5-6|0.0.1 4-5|0.0.1.3 13-14|0.0.1.1 14-15|0.0.1.1.0 22-23|0.1.1.1.0 9-10|0.0.1.0+0.0.1.0.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.360
+(t / trigger-02
+  :ARG0 (h / hang-01
+          :ARG1 (p2 / person
+                  :name (n5 / name
+                          :op1 "Nguyen"))
+          :concession (l / lobby-01
+                        :ARG0 (g / government-organization
+                                :ARG0-of (g2 / govern-01
+                                           :ARG1 c7))
+                        :ARG1 (s / show-01
+                                :ARG1 (c6 / clemency))
+                        :ARG2 (c5 / country
+                                :name (n7 / name
+                                        :op1 "Singapore"))
+                        :manner (h2 / heavy)))
+  :ARG1 (o / outrage-01
+          :ARG1 (p3 / public)
+          :location (c7 / country
+                      :name (n8 / name
+                              :op1 "Australia")
+                      :location-of (o3 / outlaw-01
+                                     :ARG1 (p4 / punish-01
+                                             :mod (c2 / capital))))))
+
+# ::id PROXY_AFP_ENG_20070116_0147.11 ::date 2013-06-16T09:28:27 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Singapore also applies the death sentence to other crimes including murder, treason, kidnapping and firearms offences.
+# ::save-date Mon Jul 15, 2013 ::file PROXY_AFP_ENG_20070116_0147_11.txt
+# ::tok Singapore also applies the death sentence to other crimes including murder , treason , kidnapping and firearms offences .
+# ::alignments 0-1|0.0+0.0.0+0.0.0.0 2-3|0 1-2|0.3 8-9|0.2 9-10|0.2.1 15-16|0.2.1.0 17-18|0.2.1.0.3 16-17|0.2.1.0.3.0 14-15|0.2.1.0.2 10-11|0.2.1.0.0 7-8|0.2.0 5-6|0.1 4-5|0.1.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.387
+(a / apply-02
+  :ARG0 (c / country
+          :name (n / name
+                  :op1 "Singapore"))
+  :ARG1 (s / sentence-01
+          :ARG2 (d / die-01))
+  :ARG2 (c2 / crime
+          :mod (o / other)
+          :ARG2-of (i / include-01
+                     :ARG1 (a4 / and
+                             :op1 (m / murder-01)
+                             :op2 (b / betray-01)
+                             :op3 (k / kidnap-01)
+                             :op4 (o3 / offence
+                                    :instrument (f / firearm)))))
+  :mod (a2 / also))
+
+# ::id PROXY_AFP_ENG_20070116_0270.1 ::date 2013-06-16T10:38:10 ::snt-type date ::annotator SDL-AMR-09 ::preferred
+# ::snt 2007-01-16
+# ::save-date Sun Jun 16, 2013 ::file PROXY_AFP_ENG_20070116_0270_1.txt
+# ::tok 2007-01-16
+# ::alignments 0-1|0+0.0+0.1+0.2 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.391
+(d2 / date-entity :day 16 :month 1 :year 2007)
+
+# ::id PROXY_AFP_ENG_20070116_0270.2 ::date 2013-06-16T10:39:22 ::snt-type country ::annotator SDL-AMR-09 ::preferred
+# ::snt Israel (IL); Republic of Korea (KR); Democratic People's Republic of Korea (KP); Iran (IR)
+# ::save-date Sun Jun 16, 2013 ::file PROXY_AFP_ENG_20070116_0270_2.txt
+# ::tok Israel ( IL ) ; Republic of Korea ( KR ) ; Democratic People 's Republic of Korea ( KP ) ; Iran ( IR )
+# ::alignments 0-1|0.0+0.0.0+0.0.0.0 5-8|0.1+0.1.0+0.1.0.0+0.1.0.1+0.1.0.2 12-18|0.2+0.2.0+0.2.0.0+0.2.0.1+0.2.0.2+0.2.0.3+0.2.0.4 22-23|0.3+0.3.0+0.3.0.0 4-5|0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.423
+(a / and
+      :op1 (c5 / country :name (n8 / name :op1 "Israel"))
+      :op2 (c6 / country :name (n9 / name :op1 "Republic" :op2 "of" :op3 "Korea"))
+      :op3 (c7 / country :name (n10 / name :op1 "Democratic" :op2 "People's" :op3 "Republic" :op4 "of" :op5 "Korea"))
+      :op4 (c8 / country :name (n11 / name :op1 "Iran")))
+
+# ::id PROXY_AFP_ENG_20070116_0270.3 ::date 2013-06-16T10:43:48 ::snt-type topic ::annotator SDL-AMR-09 ::preferred
+# ::snt International; proliferation; politics
+# ::save-date Mon Jun 17, 2013 ::file PROXY_AFP_ENG_20070116_0270_3.txt
+# ::tok International ; proliferation ; politics
+# ::alignments 1-2|0 4-5|0.2 0-1|0.0 2-3|0.1 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.431
+(a / and
+      :op1 (i / international)
+      :op2 (p / proliferate-01)
+      :op3 (p2 / politics))
+
+# ::id PROXY_AFP_ENG_20070116_0270.4 ::date 2013-06-16T10:44:28 ::snt-type summary ::annotator SDL-AMR-09 ::preferred
+# ::snt Israeli Foreign Minister Visits South Korea to discuss connection between North Korea and Iran's nuclear programs and enforcement of UN resolution on Hezbollah.
+# ::save-date Sat Sep 14, 2013 ::file PROXY_AFP_ENG_20070116_0270_4.txt
+# ::tok Israeli Foreign Minister Visits South Korea to discuss connection between North Korea and Iran 's nuclear programs and enforcement of UN resolution on Hezbollah .
+# ::alignments 4-6|0.1+0.1.0+0.1.0.0+0.1.0.1 10-12|0.2.0.0.0.0.0+0.2.0.0.0.0.0.0+0.2.0.0.0.0.0.0.0+0.2.0.0.0.0.0.0.1 13-14|0.2.0.0.0.0.1+0.2.0.0.0.0.1.0+0.2.0.0.0.0.1.0.0 20-21|0.2.0.0.1.0.0+0.2.0.0.1.0.0.0+0.2.0.0.1.0.0.0.0 23-24|0.2.0.0.1.0.1+0.2.0.0.1.0.1.0+0.2.0.0.1.0.1.0.0 0-1|0.0.0.0+0.0.0.0.0+0.0.0.0.0.0 3-4|0 7-8|0.2 12-13|0.2.0.0 21-22|0.2.0.0.1.0 16-17|0.2.0.0.0 17-18|0.2.0.0.0.0 2-3|0.0.0.1 1-2|0.0.0.1.0 8-9|0.2.0 18-19|0.2.0.0.1 15-16|0.2.0.0.0.1 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.477
+(v / visit-01
+  :ARG0 (p2 / person
+          :ARG0-of (h / have-org-role-91
+                     :ARG1 (c4 / country
+                             :name (n6 / name
+                                     :op1 "Israel"))
+                     :ARG2 (m / minister
+                             :mod (f / foreign))))
+  :ARG1 (c6 / country
+          :name (n9 / name
+                  :op1 "South"
+                  :op2 "Korea"))
+  :purpose (d / discuss-01
+             :ARG0 p2
+             :ARG1 (c / connect-01
+                     :ARG1 (a / and
+                             :op1 (p3 / program
+                                    :poss (a2 / and
+                                            :op1 (c5 / country
+                                                   :name (n7 / name
+                                                           :op1 "North"
+                                                           :op2 "Korea"))
+                                            :op2 (c7 / country
+                                                   :name (n10 / name
+                                                           :op1 "Iran")))
+                                    :mod (n / nucleus))
+                             :op2 (e2 / enforce-01
+                                    :ARG1 (r / resolution
+                                            :mod (o2 / organization
+                                                   :name (n8 / name
+                                                           :op1 "UN"))
+                                            :topic (p / political-party
+                                                     :name (n5 / name
+                                                             :op1 "Hezbollah"))))))
+             :ARG2 c6))
+
+# ::id PROXY_AFP_ENG_20070116_0270.5 ::date 2013-06-16T11:07:56 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt 20070116 Israeli Foreign Minister Tzipi Livni stated at a meeting in Seoul --
+# ::save-date Sat Sep 14, 2013 ::file PROXY_AFP_ENG_20070116_0270_5.txt
+# ::tok 20070116 Israeli Foreign Minister Tzipi Livni stated at a meeting in Seoul --
+# ::alignments 4-6|0.0+0.0.0+0.0.0.0+0.0.0.1 11-12|0.1.3.0+0.1.3.0.0+0.1.3.0.0.0 1-2|0.0.1.0+0.0.1.0.0+0.0.1.0.0.0 0-1|0.1+0.1.0+0.1.1+0.1.2 6-7|0 9-10|0.1.3 3-4|0.0.1.1 2-3|0.0.1.1.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.497
+(s / state-01
+  :ARG0 (p / person
+          :name (n / name
+                  :op1 "Tzipi"
+                  :op2 "Livni")
+          :ARG0-of (h / have-org-role-91
+                     :ARG1 (c / country
+                             :name (n3 / name
+                                     :op1 "Israel"))
+                     :ARG2 (m2 / minister
+                             :mod (f / foreign))))
+  :time (d2 / date-entity
+          :day 16
+          :month 1
+          :year 2007
+          :time-of (m / meet-03
+                     :location (c2 / city
+                                 :name (n4 / name
+                                         :op1 "Seoul")))))
+
+# ::id PROXY_AFP_ENG_20070116_0270.6 ::date 2013-06-16T11:11:54 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Israel and South Korea share concerns over the connection between North Korea and Iran in the pursuit of weapons of mass destruction.
+# ::save-date Mon Jul 15, 2013 ::file PROXY_AFP_ENG_20070116_0270_6.txt
+# ::tok Israel and South Korea share concerns over the connection between North Korea and Iran in the pursuit of weapons of mass destruction .
+# ::alignments 0-1|0.0.0+0.0.0.0+0.0.0.0.0 2-4|0.0.1+0.0.1.0+0.0.1.0.0+0.0.1.0.1 10-12|0.1.0.0.0+0.1.0.0.0.0+0.1.0.0.0.0.0+0.1.0.0.0.0.1 13-14|0.1.0.0.1+0.1.0.0.1.0+0.1.0.0.1.0.0 4-5|0 5-6|0.1 1-2|0.1.0.0 18-19|0.1.0.1.0 20-21|0.1.0.1.0.0.0 12-13|0.0 8-9|0.1.0 16-17|0.1.0.1 21-22|0.1.0.1.0.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.527
+(s / share-01
+  :ARG0 (a / and
+          :op1 (c / country
+                 :name (n / name
+                         :op1 "Israel"))
+          :op2 (c2 / country
+                 :name (n2 / name
+                         :op1 "South"
+                         :op2 "Korea")))
+  :ARG1 (c3 / concern-01
+          :ARG0 (c5 / connect-01
+                  :ARG1 (a4 / and
+                          :op1 (c9 / country
+                                 :name (n3 / name
+                                         :op1 "North"
+                                         :op2 "Korea"))
+                          :op2 (c10 / country
+                                 :name (n4 / name
+                                         :op1 "Iran")))
+                  :purpose (p / pursue-01
+                             :ARG0 a4
+                             :ARG1 (w2 / weapon
+                                     :ARG2-of (d2 / destroy-01
+                                                :degree (m2 / mass)))))
+          :ARG1 a))
+
+# ::id PROXY_AFP_ENG_20070116_0270.7 ::date 2013-06-16T12:04:35 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt South Korea and Israel oppose proliferation of weapons of mass destruction and an arms race.
+# ::save-date Mon Jul 15, 2013 ::file PROXY_AFP_ENG_20070116_0270_7.txt
+# ::tok South Korea and Israel oppose proliferation of weapons of mass destruction and an arms race .
+# ::alignments 3-4|0.0.0+0.0.0.0+0.0.0.0.0 0-2|0.0.1+0.0.1.0+0.0.1.0.0+0.0.1.0.1 4-5|0 2-3|0.1 14-15|0.1.1 13-14|0.1.1.0 7-8|0.1.0.0 9-10|0.1.0.0.0.0 11-12|0.0 5-6|0.1.0 10-11|0.1.0.0.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.548
+(o / oppose-01
+  :ARG0 (a2 / and
+          :op1 (c / country
+                 :name (n / name
+                         :op1 "Israel"))
+          :op2 (c2 / country
+                 :name (n2 / name
+                         :op1 "South"
+                         :op2 "Korea")))
+  :ARG1 (a3 / and
+          :op1 (p / proliferate-01
+                 :ARG0 (w2 / weapon
+                         :ARG2-of (d2 / destroy-01
+                                    :degree (m2 / mass))))
+          :op2 (r / race-02
+                 :ARG2 (a / arm))))
+
+# ::id PROXY_AFP_ENG_20070116_0270.8 ::date 2013-06-16T12:07:25 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Livni visited Seoul 20070115-20070116 to discuss enhancement of bilateral relations with South Korean Prime Minister Han Myeong-sook and Foreign Minister Song Min-soon.
+# ::save-date Sat Sep 14, 2013 ::file PROXY_AFP_ENG_20070116_0270_8.txt
+# ::tok Livni visited Seoul 20070115-20070116 to discuss enhancement of bilateral relations with South Korean Prime Minister Han Myeong - sook and Foreign Minister Song Min - soon .
+# ::alignments 0-1|0.0+0.0.0+0.0.0.0 2-3|0.1+0.1.0+0.1.0.0 15-19|0.3.1.0+0.3.1.0.0+0.3.1.0.0.0+0.3.1.0.0.1 22-26|0.3.1.1+0.3.1.1.0+0.3.1.1.0.0+0.3.1.1.0.1 11-13|0.3.1.0.1.0+0.3.1.0.1.0.0+0.3.1.0.1.0.0.0+0.3.1.0.1.0.0.1 1-2|0 5-6|0.3 19-20|0.3.1 14-15|0.3.1.1.1.0 20-21|0.3.1.1.1.0.0 21-22|0.3.1.0.1.1 13-14|0.3.1.0.1.1.0 9-10|0.3.0.0 8-9|0.3.0.0.0 6-7|0.3.0 3-4|0.2.0.2 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.589
+(v / visit-01
+  :ARG0 (p4 / person
+          :name (n5 / name
+                  :op1 "Livni"))
+  :ARG1 (c3 / city
+          :name (n6 / name
+                  :op1 "Seoul"))
+  :time (d2 / date-interval
+          :op1 (d3 / date-entity
+                 :day 15
+                 :month 1
+                 :year 2007)
+          :op2 (d5 / date-entity
+                 :day 16
+                 :month 1
+                 :year 2007))
+  :purpose (d / discuss-01
+             :ARG0 p4
+             :ARG1 (e / enhance-01
+                     :ARG1 (r / relation
+                             :mod (b / bilateral)))
+             :ARG2 (a / and
+                     :op1 (p / person
+                            :name (n8 / name
+                                    :op1 "Han"
+                                    :op2 "Myeong-sook")
+                            :ARG0-of (h / have-org-role-91
+                                       :ARG1 (c2 / country
+                                               :name (n7 / name
+                                                       :op1 "South"
+                                                       :op2 "Korea"))
+                                       :ARG2 (m / minister
+                                               :mod (p2 / prime))))
+                     :op2 (p3 / person
+                            :name (n4 / name
+                                    :op1 "Song"
+                                    :op2 "Min-soon")
+                            :ARG0-of (h2 / have-org-role-91
+                                       :ARG1 c2
+                                       :ARG2 (m2 / minister
+                                               :mod (f2 / foreign)))))))
+
+# ::id PROXY_AFP_ENG_20070116_0270.9 ::date 2013-06-16T12:08:28 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Livni is the first Israeli foreign minister to visit Seoul since relations between Israel and South Korea began in 1962.
+# ::save-date Sat Sep 14, 2013 ::file PROXY_AFP_ENG_20070116_0270_9.txt
+# ::tok Livni is the first Israeli foreign minister to visit Seoul since relations between Israel and South Korea began in 1962 .
+# ::alignments 0-1|0+0.0+0.0.0 9-10|0.2.0+0.2.0.0+0.2.0.0.0 15-17|0.2.1.0.0.0.0+0.2.1.0.0.0.0.0+0.2.1.0.0.0.0.0.0+0.2.1.0.0.0.0.0.1 13-14|0.3.0+0.3.0.0+0.3.0.0.0 19-20|0.2.1.0.1+0.2.1.0.1.0 8-9|0.2 10-11|0.2.1 17-18|0.2.1.0 11-12|0.2.1.0.0 12-13|0.2.1.0.0.0 6-7|0.3.1 5-6|0.3.1.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.612
+(p2 / person
+  :name (n6 / name
+          :op1 "Livni")
+  :ord (o / ordinal-entity
+         :value 1)
+  :ARG0-of (v2 / visit-01
+             :ARG1 (c5 / city
+                     :name (n7 / name
+                             :op1 "Seoul"))
+             :time (s / since
+                     :op1 (b / begin-01
+                            :ARG1 (r / relation
+                                    :mod (b2 / between
+                                           :op1 c6
+                                           :op2 (c2 / country
+                                                  :name (n2 / name
+                                                          :op1 "South"
+                                                          :op2 "Korea"))))
+                            :time (d / date-entity
+                                    :year 1962))))
+  :ARG0-of (h / have-org-role-91
+             :ARG1 (c6 / country
+                     :name (n8 / name
+                             :op1 "Israel"))
+             :ARG2 (m / minister
+                     :mod (f3 / foreign))))
+
+# ::id PROXY_AFP_ENG_20070116_0270.10 ::date 2013-06-16T12:21:25 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Livni will travel to Tokyo next.
+# ::save-date Mon Jun 17, 2013 ::file PROXY_AFP_ENG_20070116_0270_10.txt
+# ::tok Livni will travel to Tokyo next .
+# ::alignments 0-1|0.0+0.0.0+0.0.0.0 4-5|0.1+0.1.0+0.1.0.0 2-3|0 5-6|0.2 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.621
+(t / travel-01
+      :ARG0 (p / person :name (n / name :op1 "Livni"))
+      :ARG1 (c / city :name (n2 / name :op1 "Tokyo"))
+      :time (n3 / next))
+
+# ::id PROXY_AFP_ENG_20070116_0270.11 ::date 2013-06-17T15:04:01 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Livni stated --
+# ::save-date Mon Jun 17, 2013 ::file PROXY_AFP_ENG_20070116_0270_11.txt
+# ::tok Livni stated --
+# ::alignments 0-1|0.0+0.0.0+0.0.0.0 1-2|0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.625
+(s / state-01
+      :ARG0 (p / person :name (n / name :op1 "Livni")))
+
+# ::id PROXY_AFP_ENG_20070116_0270.12 ::date 2013-06-17T15:04:32 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Israel supports South Korea's plan to send 350 troops as part of UN peacekeeping forces to Lebanon later in 2007.
+# ::save-date Mon Jul 15, 2013 ::file PROXY_AFP_ENG_20070116_0270_12.txt
+# ::tok Israel supports South Korea 's plan to send 350 troops as part of UN peacekeeping forces to Lebanon later in 2007 .
+# ::alignments 0-1|0.0+0.0.0+0.0.0.0 2-4|0.1.0+0.1.0.0+0.1.0.0.0+0.1.0.0.1 13-14|0.1.1.0.1.0+0.1.1.0.1.0.0+0.1.1.0.1.0.0.0 17-18|0.1.1.1+0.1.1.1.0+0.1.1.1.0.0 20-21|0.1.2.0+0.1.2.0.0 1-2|0 5-6|0.1 18-19|0.1.2 7-8|0.1.1 9-10|0.1.1.0 15-16|0.1.1.0.1 8-9|0.1.1.0.0 14-15|0.1.1.0.1.1.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.651
+(s / support-01
+  :ARG0 (c4 / country
+          :name (n5 / name
+                  :op1 "Israel"))
+  :ARG1 (p / plan-01
+          :ARG0 (c5 / country
+                  :name (n6 / name
+                          :op1 "South"
+                          :op2 "Korea"))
+          :ARG1 (s2 / send-01
+                  :ARG0 c5
+                  :ARG1 (t2 / troop
+                          :quant 350
+                          :part-of (f / force
+                                     :poss (o2 / organization
+                                             :name (n2 / name
+                                                     :op1 "UN"))
+                                     :ARG0-of (k2 / keep-01
+                                                :ARG1 (p3 / peace))))
+                  :ARG2 (c / country
+                          :name (n / name
+                                  :op1 "Lebanon")))
+          :time (l / late
+                  :op1 (d / date-entity
+                         :year 2007)
+                  :degree (m / more))))
+
+# ::id PROXY_AFP_ENG_20070116_0270.13 ::date 2013-06-17T15:10:53 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt The UN arms embargo on Hezbollah remains unenforced because the open Syria-Lebanon border is being used to transfer weapons to Hezbollah.
+# ::save-date Mon Jul 15, 2013 ::file PROXY_AFP_ENG_20070116_0270_13.txt
+# ::tok The UN arms embargo on Hezbollah remains unenforced because the open Syria - Lebanon border is being used to transfer weapons to Hezbollah .
+# ::alignments 1-2|0.0.0+0.0.0.0+0.0.0.0.0 5-6|0.0.2+0.0.2.0+0.0.2.0.0 11-12|0.2.0.0.0.0+0.2.0.0.0.0.0+0.2.0.0.0.0.0.0 13-14|0.2.0.0.0.1+0.2.0.0.0.1.0+0.2.0.0.0.1.0.0 6-7|0 8-9|0.2 17-18|0.2.0 19-20|0.2.0.1 20-21|0.2.0.1.0 14-15|0.2.0.0.0 10-11|0.2.0.0.1 3-4|0.0 2-3|0.0.1 7-8|0.1+0.1.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.679
+(r / remain-01
+  :ARG1 (e / embargo-01
+          :ARG0 (o2 / organization
+                  :name (n6 / name
+                          :op1 "UN"))
+          :ARG1 (a / arm)
+          :beneficiary (p3 / political-party
+                         :name (n / name
+                                 :op1 "Hezbollah")))
+  :ARG3 (e2 / enforce-01
+          :polarity -)
+  :ARG1-of (c / cause-01
+             :ARG0 (u2 / use-01
+                     :ARG1 (l / location
+                             :location-of (b2 / border-01
+                                            :ARG1 (c4 / country
+                                                    :name (n4 / name
+                                                            :op1 "Syria"))
+                                            :ARG2 (c5 / country
+                                                    :name (n5 / name
+                                                            :op1 "Lebanon")))
+                             :mod (o / open))
+                     :ARG2 (t / transfer-01
+                             :ARG1 (w / weapon)
+                             :ARG2 p3))))
+
+# ::id PROXY_AFP_ENG_20070116_0270.14 ::date 2013-06-17T15:17:13 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt UN Security Council Resolution 1701 ended the 34 day conflict between Israel and Hezbollah in 2006.
+# ::save-date Tue Sep 17, 2013 ::file PROXY_AFP_ENG_20070116_0270_14.txt
+# ::tok UN Security Council Resolution 1701 ended the 34 day conflict between Israel and Hezbollah in 2006 .
+# ::alignments 11-12|0.0.0+0.0.0.0+0.0.0.0.0 13-14|0.0.1+0.0.1.0+0.0.1.0.0 0-5|0.1+0.1.0+0.1.0.0+0.1.0.1+0.1.0.2+0.1.0.3+0.1.0.4 15-16|0.2+0.2.0 5-6|0 9-10|0.0 7-8|0.0.2.0 8-9|0.0.2+0.0.2.1 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.697
+(e / end-01
+      :ARG1 (c3 / conflict-01
+            :ARG0 (c / country :name (n / name :op1 "Israel"))
+            :ARG1 (p / political-party :name (n2 / name :op1 "Hezbollah"))
+            :duration (t2 / temporal-quantity :quant 34
+                  :unit (d / day)))
+      :ARG2 (l / law :name (n3 / name :op1 "UN" :op2 "Security" :op3 "Council" :op4 "Resolution" :op5 "1701"))
+      :time (d2 / date-entity :year 2006))
+
+# ::id PROXY_AFP_ENG_20070116_0270.15 ::date 2013-06-17T15:21:51 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt The resolution demands a full arms embargo on Hezbollah in Lebanon and the removal of Hezbollah as a fighting force from southern Lebanon.
+# ::save-date Thu Sep 19, 2013 ::file PROXY_AFP_ENG_20070116_0270_15.txt
+# ::tok The resolution demands a full arms embargo on Hezbollah in Lebanon and the removal of Hezbollah as a fighting force from southern Lebanon .
+# ::alignments 8-9|0.1.0.1+0.1.0.1.0+0.1.0.1.0.0 10-11|0.1.0.1.1+0.1.0.1.1.0+0.1.0.1.1.0.0 2-3|0 11-12|0.1 19-20|0.1.1.1 18-19|0.1.1.1.0 6-7|0.1.0 4-5|0.1.0.2 5-6|0.1.0.0 1-2|0.0 13-14|0.1.1 21-22|0.1.1.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.722
+(d / demand-01
+      :ARG0 (r / resolution)
+      :ARG1 (a / and
+            :op1 (e / embargo-01
+                  :ARG1 (a2 / arm)
+                  :beneficiary (p / political-party :name (n / name :op1 "Hezbollah")
+                        :location (c / country :name (n2 / name :op1 "Lebanon")))
+                  :mod (f / full))
+            :op2 (r2 / remove-01
+                  :ARG1 p
+                  :ARG2 (s / south
+                        :part-of c)
+                  :prep-as (f2 / force
+                        :ARG0-of (f3 / fight-01)))))
+
+# ::id PROXY_AFP_ENG_20070116_0270.16 ::date 2013-06-17T15:26:05 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt The US accuses Iran of seeking a nuclear weapon.
+# ::save-date Mon Jun 17, 2013 ::file PROXY_AFP_ENG_20070116_0270_16.txt
+# ::tok The US accuses Iran of seeking a nuclear weapon .
+# ::alignments 1-2|0.0+0.0.0+0.0.0.0 3-4|0.1+0.1.0+0.1.0.0 2-3|0 5-6|0.2 8-9|0.2.0 7-8|0.2.0.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.732
+(a / accuse-01
+      :ARG0 (c / country :name (n / name :op1 "US"))
+      :ARG1 (c2 / country :name (n2 / name :op1 "Iran"))
+      :ARG2 (s / seek-01
+            :ARG0 c2
+            :ARG1 (w / weapon
+                  :mod (n3 / nucleus))))
+
+# ::id PROXY_AFP_ENG_20070116_0270.17 ::date 2013-06-17T15:27:19 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Iran insists that nuclear program exclusively develops nuclear energy for the growing Iranian population.
+# ::save-date Mon Jul 15, 2013 ::file PROXY_AFP_ENG_20070116_0270_17.txt
+# ::tok Iran insists that nuclear program exclusively develops nuclear energy for the growing Iranian population .
+# ::alignments 0-1|0.0+0.0.0+0.0.0.0 1-2|0 6-7|0.1 13-14|0.1.2 11-12|0.1.2.0 8-9|0.1.1 4-5|0.1.0 5-6|0.1.3 3-4|0.1.0.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.746
+(i / insist-01
+  :ARG0 (c / country
+          :name (n / name
+                  :op1 "Iran"))
+  :ARG1 (d / develop-02
+          :ARG0 (p / program
+                  :mod (n2 / nucleus))
+          :ARG1 (e2 / energy
+                  :mod n2)
+          :ARG3 (p2 / population
+                  :mod c
+                  :ARG1-of (g2 / grow-01))
+          :mod (e / exclusive)))
+
+# ::id PROXY_AFP_ENG_20070116_0270.18 ::date 2013-06-17T15:30:14 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt 20061009 North Korea conducted its first nuclear test.
+# ::save-date Mon Jul 15, 2013 ::file PROXY_AFP_ENG_20070116_0270_18.txt
+# ::tok 20061009 North Korea conducted its first nuclear test .
+# ::alignments 1-3|0.0+0.0.0+0.0.0.0+0.0.0.1 0-1|0.2+0.2.0+0.2.1+0.2.2 7-8|0 6-7|0.1 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.756
+(t2 / test-01
+  :ARG0 (c / country
+          :name (n / name
+                  :op1 "North"
+                  :op2 "Korea"))
+  :mod (n3 / nucleus)
+  :time (d2 / date-entity
+          :day 9
+          :month 10
+          :year 2006)
+  :ord (o / ordinal-entity :value 1))
+
+# ::id PROXY_AFP_ENG_20070125_0080.1 ::date 2013-06-01T15:37:32 ::snt-type date ::annotator SDL-AMR-09 ::preferred
+# ::snt 2007-01-25
+# ::save-date Sun Jun 2, 2013 ::file PROXY_AFP_ENG_20070125_0080_1.txt
+# ::tok 2007-01-25
+# ::alignments 0-1|0+0.0+0.1+0.2 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.759
+(d / date-entity :day 25 :month 1 :year 2007)
+
+# ::id PROXY_AFP_ENG_20070125_0080.2 ::date 2013-06-01T15:38:39 ::snt-type country ::annotator SDL-AMR-09 ::preferred
+# ::snt Philippines (PH)
+# ::save-date Sun Jun 2, 2013 ::file PROXY_AFP_ENG_20070125_0080_2.txt
+# ::tok Philippines ( PH )
+# ::alignments 0-1|0+0.0+0.0.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.763
+(c / country :name (n / name :op1 "Philippines"))
+
+# ::id PROXY_AFP_ENG_20070125_0080.3 ::date 2013-06-02T03:40:43 ::snt-type topic ::annotator SDL-AMR-09 ::preferred
+# ::snt Narcotics; crime; international
+# ::save-date Sun Jun 2, 2013 ::file PROXY_AFP_ENG_20070125_0080_3.txt
+# ::tok Narcotics ; crime ; international
+# ::alignments 1-2|0 4-5|0.2 2-3|0.1 0-1|0.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.768
+(a / and
+      :op1 (n / narcotic)
+      :op2 (c / crime)
+      :op3 (i / international))
+
+# ::id PROXY_AFP_ENG_20070125_0080.4 ::date 2013-06-02T03:41:55 ::snt-type summary ::annotator SDL-AMR-09 ::preferred
+# ::snt A Taiwanese drug trafficker named Tsai Wen-Huang was arrested in the Philippines on January 25, 2007 after fleeing from a conviction for selling Ketamine ..
+# ::save-date Sun Jun 9, 2013 ::file PROXY_AFP_ENG_20070125_0080_4.txt
+# ::tok A Taiwanese drug trafficker named Tsai Wen - Huang was arrested in the Philippines on January 25 , 2007 after fleeing from a conviction for selling Ketamine ..
+# ::alignments 5-9|0.0+0.0.0+0.0.0.0+0.0.0.1 13-14|0.1+0.1.0+0.1.0.0 1-2|0.0.2+0.0.2.0+0.0.2.0.0 15-19|0.2+0.2.0+0.2.1+0.2.2 10-11|0 19-20|0.3 20-21|0.3.0 25-26|0.3.0.0.0 26-27|0.3.0.0.0.0 2-3|0.0.1.0 23-24|0.3.0.0 3-4|0.0.1 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.791
+(a / arrest-01
+      :ARG1 (p / person :name (n / name :op1 "Tsai" :op2 "Wen-Huang")
+            :ARG0-of (t / traffic-00
+                  :ARG1 (d / drug))
+            :mod (c / country :name (n2 / name :op1 "Taiwan")))
+      :location (c2 / country :name (n4 / name :op1 "Philippines"))
+      :time (d2 / date-entity :day 25 :month 1 :year 2007)
+      :time (a2 / after
+            :op1 (f / flee-01
+                  :ARG0 p
+                  :ARG1 (c3 / convict-01
+                        :ARG1 p
+                        :ARG2 (s / sell-01
+                              :ARG0 p
+                              :ARG1 (k / ketamine))))))
+
+# ::id PROXY_AFP_ENG_20070125_0080.5 ::date 2013-06-02T04:35:58 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Police stated on January 25, 2007 that a fugitive Taiwanese drug trafficker named Tsai Wen-Huang has been arrested in the southern Philippines.
+# ::save-date Thu Sep 19, 2013 ::file PROXY_AFP_ENG_20070125_0080_5.txt
+# ::tok Police stated on January 25 , 2007 that a fugitive Taiwanese drug trafficker named Tsai Wen - Huang has been arrested in the southern Philippines .
+# ::alignments 14-18|0.1.0+0.1.0.0+0.1.0.0.0+0.1.0.0.1 24-25|0.1.1.0+0.1.1.0.0+0.1.1.0.0.0 10-11|0.1.0.2+0.1.0.2.0+0.1.0.2.0.0 3-7|0.2+0.2.0+0.2.1+0.2.2 1-2|0 20-21|0.1 11-12|0.1.0.1.0 0-1|0.0 23-24|0.1.1 12-13|0.1.0.1 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.814
+(s / state-01
+      :ARG0 (p / police)
+      :ARG1 (a / arrest-01
+            :ARG0 p
+            :ARG1 (p2 / person :name (n / name :op1 "Tsai" :op2 "Wen-Huang")
+                  :ARG0-of (t / traffic-00
+                        :ARG1 (d2 / drug))
+                  :mod (c / country :name (n2 / name :op1 "Taiwan"))
+                  :ARG0-of (f / flee-01))
+            :location (s2 / south
+                  :part-of (c2 / country :name (n3 / name :op1 "Philippines"))))
+      :time (d / date-entity :day 25 :month 1 :year 2007))
+
+# ::id PROXY_AFP_ENG_20070125_0080.6 ::date 2013-06-02T05:40:38 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Tsai Wen-Huang had been a fugitive since 2001 when he was convicted for selling Ketamine.
+# ::save-date Wed Jul 17, 2013 ::file PROXY_AFP_ENG_20070125_0080_6.txt
+# ::tok Tsai Wen - Huang had been a fugitive since 2001 when he was convicted for selling Ketamine .
+# ::alignments 0-4|0.0+0.0.0+0.0.0.0+0.0.0.1 9-10|0.1.0+0.1.0.0 8-9|0.1 13-14|0.1.0.1 15-16|0.1.0.1.0 16-17|0.1.0.1.0.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.828
+(f / flee-01
+  :ARG0 (p / person
+          :name (n / name
+                  :op1 "Tsai"
+                  :op2 "Wen-Huang"))
+  :duration (s / since
+              :op1 (d / date-entity
+                     :year 2001
+                     :time-of (c / convict-01
+                                :ARG1 p
+                                :ARG2 (s2 / sell-01
+                                        :ARG0 p
+                                        :ARG1 (k / ketamine))))))
+
+# ::id PROXY_AFP_ENG_20070125_0080.7 ::date 2013-06-02T06:02:24 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt The arrest occurred in the southern city of Koronadal on Mindanao island.
+# ::save-date Sun Jun 9, 2013 ::file PROXY_AFP_ENG_20070125_0080_7.txt
+# ::tok The arrest occurred in the southern city of Koronadal on Mindanao island .
+# ::alignments 8-9|0.0.0+0.0.0.0 10-11|0.0.2.0+0.0.2.0.0 1-2|0 6-7|0.0 11-12|0.0.2 5-6|0.0.1 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.837
+(a / arrest-01
+      :ARG0 (c / city :name (n / name :op1 "Koronadal")
+            :mod (s / south)
+            :location (i / island :name (n2 / name :op1 "Mindanao"))))
+
+# ::id PROXY_AFP_ENG_20070125_0080.8 ::date 2013-06-02T06:07:57 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Police stated that Tsai Wen-Huang fled to Manila to work with a local trafficker while he was a fugitive.
+# ::save-date Sun Jun 2, 2013 ::file PROXY_AFP_ENG_20070125_0080_8.txt
+# ::tok Police stated that Tsai Wen - Huang fled to Manila to work with a local trafficker while he was a fugitive .
+# ::alignments 3-7|0.1.0+0.1.0.0+0.1.0.0.0+0.1.0.0.1 9-10|0.1.1+0.1.1.0+0.1.1.0.0 1-2|0 7-8|0.1 11-12|0.1.2 14-15|0.1.2.0.1 0-1|0.0 15-16|0.1.2.0+0.1.2.0.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.853
+(s / state-01
+      :ARG0 (p / police)
+      :ARG1 (f / flee-01
+            :ARG0 (p2 / person :name (n / name :op1 "Tsai" :op2 "Wen-Huang"))
+            :ARG1 (c / city :name (n2 / name :op1 "Manila"))
+            :purpose (w / work-01
+                  :ARG0 p2
+                  :ARG3 (p3 / person
+                        :ARG0-of (t / traffic-00)
+                        :mod (l / local)))
+            :time (f2 / flee-01
+                  :ARG0 p2)))
+
+# ::id PROXY_AFP_ENG_20070125_0080.9 ::date 2013-06-02T06:24:25 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Police also stated that Tsai Wen-Huang would buy Ketamine locally and export the Ketamine to Taiwan at a marked up price.
+# ::save-date Wed Jul 17, 2013 ::file PROXY_AFP_ENG_20070125_0080_9.txt
+# ::tok Police also stated that Tsai Wen - Huang would buy Ketamine locally and export the Ketamine to Taiwan at a marked up price .
+# ::alignments 4-8|0.1.0.0+0.1.0.0.0+0.1.0.0.0.0+0.1.0.0.0.1 17-18|0.1.1.0+0.1.1.0.0+0.1.1.0.0.0 2-3|0 1-2|0.2 12-13|0.1 13-14|0.1.1 20-21|0.1.1.1 9-10|0.1.0 10-11|0.1.0.1 0-1|0.0 11-12|0.1.0.2 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.871
+(s / state-01
+  :ARG0 (p / police)
+  :ARG1 (a / and
+          :op1 (b / buy-01
+                 :ARG0 (p2 / person
+                         :name (n / name
+                                 :op1 "Tsai"
+                                 :op2 "Wen-Huang"))
+                 :ARG1 (k / ketamine)
+                 :mod (l / local))
+          :op2 (e / export-01
+                 :ARG0 p2
+                 :ARG1 k
+                 :ARG2 (c / country
+                         :name (n3 / name
+                                 :op1 "Taiwan"))
+                 :manner (m / mark-04
+                           :ARG1 k)))
+  :mod (a2 / also))
+
+# ::id PROXY_AFP_ENG_20070125_0080.10 ::date 2013-06-02T06:53:47 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Tsai Wen-Huang is knowledgeable in chemistry and computer technology.
+# ::save-date Sun Jun 9, 2013 ::file PROXY_AFP_ENG_20070125_0080_10.txt
+# ::tok Tsai Wen - Huang is knowledgeable in chemistry and computer technology .
+# ::alignments 0-4|0.0+0.0.0+0.0.0.0+0.0.0.1 8-9|0.1 10-11|0.1.1 9-10|0.1.1.0 7-8|0.1.0.0 5-6|0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.881
+(k / know-01
+      :ARG0 (p / person :name (n / name :op1 "Tsai" :op2 "Wen-Huang"))
+      :ARG1 (a / and
+            :op1 (t / technology
+                  :mod (c / chemistry))
+            :op2 (t2 / technology
+                  :mod (c2 / computer))))
+
+# ::id PROXY_AFP_ENG_20070125_0080.11 ::date 2013-06-02T06:59:17 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Tsai Wen-Huang admitted to counterfeiting Taiwanese currency.
+# ::save-date Sun Jun 2, 2013 ::file PROXY_AFP_ENG_20070125_0080_11.txt
+# ::tok Tsai Wen - Huang admitted to counterfeiting Taiwanese currency .
+# ::alignments 0-4|0.0+0.0.0+0.0.0.0+0.0.0.1 7-8|0.1.0.0+0.1.0.0.0+0.1.0.0.0.0 4-5|0 6-7|0.1 8-9|0.1.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.889
+(a / admit-01
+      :ARG0 (p / person :name (n / name :op1 "Tsai" :op2 "Wen-Huang"))
+      :ARG1 (c / counterfeit-01
+            :ARG0 p
+            :ARG1 (c2 / currency
+                  :mod (c3 / country :name (n2 / name :op1 "Taiwan")))))
+
+# ::id PROXY_AFP_ENG_20070125_0080.12 ::date 2013-06-02T07:03:07 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Police stated Tsai Wen-Huang would be extradited to Taiwan.
+# ::save-date Sun Jun 2, 2013 ::file PROXY_AFP_ENG_20070125_0080_12.txt
+# ::tok Police stated Tsai Wen - Huang would be extradited to Taiwan .
+# ::alignments 2-6|0.1.0+0.1.0.0+0.1.0.0.0+0.1.0.0.1 10-11|0.1.1+0.1.1.0+0.1.1.0.0 1-2|0 8-9|0.1 0-1|0.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.899
+(s / state-01
+      :ARG0 (p / police)
+      :ARG1 (e / extradite-01
+            :ARG1 (p2 / person :name (n / name :op1 "Tsai" :op2 "Wen-Huang"))
+            :ARG3 (c / country :name (n2 / name :op1 "Taiwan"))))
+
+# ::id PROXY_AFP_ENG_20070125_0080.13 ::date 2013-06-02T09:25:14 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Police stated that Ketamine is a substance used largely in manufacturing methampethamine hydrochloride or ice.
+# ::save-date Wed Jul 17, 2013 ::file PROXY_AFP_ENG_20070125_0080_13.txt
+# ::tok Police stated that Ketamine is a substance used largely in manufacturing methampethamine hydrochloride or ice .
+# ::alignments 1-2|0 6-7|0.1 3-4|0.1.1 7-8|0.1.0 10-11|0.1.0.0 14-15|0.1.0.0.0 12-13|0.1.0.0.0.0.0 0-1|0.0 8-9|0.1.0.1 11-12|0.1.0.0.0.0.0.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.911
+(s / state-01
+  :ARG0 (p / police)
+  :ARG1 (s2 / substance
+          :ARG1-of (u / use-01
+                     :ARG2 (m / manufacture-01
+                             :ARG1 (i / ice
+                                     :ARG0-of (m3 / mean-01
+                                                :ARG1 (h / hydrochloride
+                                                        :mod (m2 / methamphetamine)))))
+                     :degree (l / large))
+          :domain (k / ketamine)))
+
+# ::id PROXY_AFP_ENG_20070201_0099.1 ::date 2013-06-02T09:48:32 ::snt-type date ::annotator SDL-AMR-09 ::preferred
+# ::snt 2007-02-01
+# ::save-date Sun Jun 2, 2013 ::file PROXY_AFP_ENG_20070201_0099_1.txt
+# ::tok 2007-02-01
+# ::alignments 0-1|0+0.0+0.1+0.2 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.914
+(d / date-entity :day 1 :month 2 :year 2007)
+
+# ::id PROXY_AFP_ENG_20070201_0099.2 ::date 2013-06-02T09:50:01 ::snt-type country ::annotator SDL-AMR-09 ::preferred
+# ::snt China (CN)
+# ::save-date Sun Jun 2, 2013 ::file PROXY_AFP_ENG_20070201_0099_2.txt
+# ::tok China ( CN )
+# ::alignments 0-1|0+0.0+0.0.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.917
+(c / country :name (n / name :op1 "China"))
+
+# ::id PROXY_AFP_ENG_20070201_0099.3 ::date 2013-06-02T09:51:38 ::snt-type topic ::annotator SDL-AMR-09 ::preferred
+# ::snt Space; military; politics; international
+# ::save-date Thu Jun 6, 2013 ::file PROXY_AFP_ENG_20070201_0099_3.txt
+# ::tok Space ; military ; politics ; international
+# ::alignments 1-2|0 6-7|0.3 4-5|0.2 2-3|0.1 0-1|0.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.923
+(a / and
+      :op1 (s / space)
+      :op2 (m / military)
+      :op3 (p / politics)
+      :op4 (i / international))
+
+# ::id PROXY_AFP_ENG_20070201_0099.4 ::date 2013-06-02T09:54:40 ::snt-type summary ::annotator SDL-AMR-09 ::preferred
+# ::snt China said on February 1, 2007 it did not want an arms race in space.
+# ::save-date Sun Jun 2, 2013 ::file PROXY_AFP_ENG_20070201_0099_4.txt
+# ::tok China said on February 1 , 2007 it did not want an arms race in space .
+# ::alignments 0-1|0.0+0.0.0+0.0.0.0 3-7|0.2+0.2.0+0.2.1+0.2.2  1-2|0 10-11|0.1 13-14|0.1.1 15-16|0.1.1.1 12-13|0.1.1.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.936
+(s / say-01
+      :ARG0 (c / country :name (n / name :op1 "China"))
+      :ARG1 (w / want-01 :polarity -
+            :ARG0 c
+            :ARG1 (r / race-02
+                  :ARG0 c
+                  :ARG2 (a / arm)
+                  :location (s2 / space)))
+      :time (d / date-entity :day 1 :month 2 :year 2007))
+
+# ::id PROXY_AFP_ENG_20070201_0099.5 ::date 2013-06-02T10:10:48 ::snt-type summary ::annotator SDL-AMR-09 ::preferred
+# ::snt China did not comment on Japanese Prime Minister Shinzo Abe's claims that China's satellite-destroying test had broken international law.
+# ::save-date Sat Sep 14, 2013 ::file PROXY_AFP_ENG_20070201_0099_5.txt
+# ::tok China did not comment on Japanese Prime Minister Shinzo Abe 's claims that China 's satellite - destroying test had broken international law .
+# ::alignments 0-1|0.0+0.0.0+0.0.0.0 8-10|0.1.0+0.1.0.0+0.1.0.0.0+0.1.0.0.1 5-6|0.1.0.1.0+0.1.0.1.0.0+0.1.0.1.0.0.0  3-4|0 11-12|0.1 20-21|0.1.1 22-23|0.1.1.1 21-22|0.1.1.1.0 18-19|0.1.1.0 17-18|0.1.1.0.0 15-16|0.1.1.0.0.0 7-8|0.1.0.1.1 6-7|0.1.0.1.1.0 19-20|0.1.0.1 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.957
+(c / comment-01
+  :ARG0 (c2 / country
+          :name (n / name
+                  :op1 "China"))
+  :ARG1 (c3 / claim-01
+          :ARG0 (p2 / person
+                  :name (n2 / name
+                          :op1 "Shinzo"
+                          :op2 "Abe")
+                  :ARG0-of (h / have-org-role-91
+                             :ARG1 (c4 / country
+                                     :name (n3 / name
+                                             :op1 "Japan"))
+                             :ARG2 (m / minister
+                                     :mod (p / prime))))
+          :ARG1 (b / break-02
+                  :ARG0 (t / test-01
+                          :ARG0 c2
+                          :ARG1 (d / destroy-01
+                                  :ARG0 c2
+                                  :ARG1 (s / satellite)))
+                  :ARG1 (l / law
+                          :mod (i / international))))
+  :polarity -)
+
+# ::id PROXY_AFP_ENG_20070201_0099.6 ::date 2013-06-02T10:38:56 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt China said on February 1, 2007 it did not want an arms race in space.
+# ::save-date Wed Jun 5, 2013 ::file PROXY_AFP_ENG_20070201_0099_6.txt
+# ::tok China said on February 1 , 2007 it did not want an arms race in space .
+# ::alignments 0-1|0.0+0.0.0+0.0.0.0 3-7|0.2+0.2.0+0.2.1+0.2.2  1-2|0 10-11|0.1 13-14|0.1.1 15-16|0.1.1.1 12-13|0.1.1.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.971
+(s / say-01
+      :ARG0 (c / country :name (n / name :op1 "China"))
+      :ARG1 (w / want-01 :polarity -
+            :ARG0 c
+            :ARG1 (r / race-02
+                  :ARG0 c
+                  :ARG2 (a / arm)
+                  :location (s2 / space)))
+      :time (d / date-entity :day 1 :month 2 :year 2007))
+
+# ::id PROXY_AFP_ENG_20070201_0099.7 ::date 2013-06-02T10:52:25 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt China did not comment on Japanese Prime Minister Shinzo Abe's claims that China's satellite-destroying test had broken international law.
+# ::save-date Sat Sep 14, 2013 ::file PROXY_AFP_ENG_20070201_0099_7.txt
+# ::tok China did not comment on Japanese Prime Minister Shinzo Abe 's claims that China 's satellite - destroying test had broken international law .
+# ::alignments 0-1|0.0+0.0.0+0.0.0.0 8-10|0.1.0+0.1.0.0+0.1.0.0.0+0.1.0.0.1 5-6|0.1.0.1.0+0.1.0.1.0.0+0.1.0.1.0.0.0  3-4|0 11-12|0.1 20-21|0.1.1 22-23|0.1.1.1 21-22|0.1.1.1.0 18-19|0.1.1.0 17-18|0.1.1.0.0 15-16|0.1.1.0.0.0 7-8|0.1.0.1.1 6-7|0.1.0.1.1.0 19-20|0.1.0.1 ::annotator Aligner v.02 ::date 2014-01-06T03:37:53.991
+(c / comment-01
+  :ARG0 (c2 / country
+          :name (n / name
+                  :op1 "China"))
+  :ARG1 (c3 / claim-01
+          :ARG0 (p2 / person
+                  :name (n2 / name
+                          :op1 "Shinzo"
+                          :op2 "Abe")
+                  :ARG0-of (h / have-org-role-91
+                             :ARG1 (c4 / country
+                                     :name (n3 / name
+                                             :op1 "Japan"))
+                             :ARG2 (m / minister
+                                     :mod (p / prime))))
+          :ARG1 (b / break-02
+                  :ARG0 (t / test-01
+                          :ARG0 c2
+                          :ARG1 (d / destroy-01
+                                  :ARG0 c2
+                                  :ARG1 (s / satellite)))
+                  :ARG1 (l / law
+                          :mod (i / international))))
+  :polarity -)
+
+# ::id PROXY_AFP_ENG_20070201_0099.8 ::date 2013-06-02T11:02:48 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt China's Foreign Ministry refused to react directly to Abe's comments that Beijing had violated an International Space Treaty when it shot down one of its own satellites with a missile on January 11, 2007.
+# ::save-date Wed Jul 17, 2013 ::file PROXY_AFP_ENG_20070201_0099_8.txt
+# ::tok China 's Foreign Ministry refused to react directly to Abe 's comments that Beijing had violated an International Space Treaty when it shot down one of its own satellites with a missile on January 11 , 2007 .
+# ::alignments 2-4|0.0+0.0.0+0.0.0.0+0.0.0.1 0-1|0.0.1+0.0.1.0+0.0.1.0.0 9-10|0.1.0.0+0.1.0.0.0+0.1.0.0.0.0 13-14|0.1.0.1.0+0.1.0.1.0.0+0.1.0.1.0.0.0 33-37|0.1.0.1.2.2+0.1.0.1.2.2.0+0.1.0.1.2.2.1+0.1.0.1.2.2.2 4-5|0 6-7|0.1 11-12|0.1.0 15-16|0.1.0.1 22-23|0.1.0.1.2 31-32|0.1.0.1.2.1 28-29|0.1.0.1.2.0 25-26|0.1.0.1.2.0.1 24-25|0.1.0.1.2.0.0 19-20|0.1.0.1.1 17-18|0.1.0.1.1.1 18-19|0.1.0.1.1.0 7-8|0.1.1 ::annotator Aligner v.02 ::date 2014-01-06T03:37:54.020
+(r / refuse-01
+      :ARG0 (g / government-organization :name (n / name :op1 "Foreign" :op2 "Ministry")
+            :mod (c / country :name (n5 / name :op1 "China")))
+      :ARG1 (r2 / react-01
+            :ARG0 g
+            :ARG1 (c2 / comment-02
+                  :ARG0 (p / person :name (n2 / name :op1 "Abe"))
+                  :ARG1 (v / violate-01
+                        :ARG0 (c3 / city :name (n3 / name :op1 "Beijing"))
+                        :ARG1 (t / treaty
+                              :topic (s4 / space)
+                              :mod (i4 / international))
+                        :time (s / shoot-05
+                              :ARG0 c3
+                              :ARG1 (s2 / satellite :quant 1
+                                    :ARG1-of (i / include-91
+                                          :ARG2 (s3 / satellite
+                                                :poss c3)))
+                              :ARG2 (m2 / missile)
+                              :time (d2 / date-entity :day 11 :month 1 :year 2007))))
+            :manner (d / direct)))
+

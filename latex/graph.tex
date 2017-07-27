@@ -1,0 +1,30 @@
+% A simple graph with straight and bend arrows and loops
+% Stefan Kottwitz
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{graphdrawing}
+\usetikzlibrary{arrows}
+\begin{document}
+\begin{tikzpicture}[->,>=stealth',shorten >=1pt,auto,node distance=3cm,
+  thick,main node/.style={circle,fill=blue!20,draw,font=\sffamily\Large\bfseries}]
+
+  \node[main node] (1) {};
+  \coordinate [below left of=1] (2);
+  \node[main node] (3) [below of=1] {};
+  \coordinate [below left of=3] (4);
+  \node[main node] (5) [below right of=1] {};
+\coordinate  [below right of=5] (6);
+\node[main node] (7) [below of = 5] {};
+ \coordinate [below left of = 7] (8);
+
+  \path[every node/.style={font=\sffamily\small}]
+    (1) edge node [left] {arg0} (3)
+        edge [right] node[left] {want} (2)
+      edge node [right] {arg1} (5)
+    (3) edge node [right] {boy} (4)
+    (5) edge node [right] {believe} (6)
+        edge [right] node[left] {arg0} (7)
+      edge node [bend right] {arg1} (3)
+    (7)  edge node [left] {girl} (8);
+\end{tikzpicture}
+\end{document}

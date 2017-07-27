@@ -1,0 +1,62 @@
+person+country+name####(. :p/person  :source (. :c/country  :name (. :n/name  :op1 (. :"South" ) :op2 (. :"Korea" ))))####0 2####South Korean####NNP NNPS
+person+country+name####(. :p/person  :source (. :c/country  :name (. :n/name  :op1 (. :"South" ) :op2 (. :"Korea" ))))####0 2####South Korean####NNP NNPS
+person+country+name####(. :p/person  :source (. :c/country  :name (. :n/name  :op1 (. :"South" ) :op2 (. :"Korea" ))))####0 2####South Korean####NNP NNPS
+person+country+name####(. :p3/person  :source (. :c2/country  :name (. :n2/name  :op1 (. :"South" ) :op2 (. :"Korea" ))))####13 15####South Korean####NNP NNPS
+person+country+name####(. :p/person  :source (. :c3/country  :name (. :n/name  :op1 (. :"South" ) :op2 (. :"Korea" ))))####8 10####South Korean####NNP NNPS
+person+continent+name####(. :p3/person  :source (. :c3/continent  :name (. :n2/name  :op1 (. :"Asia" ))))####12 13####Asian####NNPS
+person+country+name####(. :p2/person  :source (.*0  :c2/country  :name (. :n/name  :op1 (. :"South" ) :op2 (. :"Korea" ))))####23 25####South Korea####NNP NNP
+person+country+name####(. :mod (. :c2/country  :name (. :n4/name  :op1 (. :"Japan" ))) :p3/person )####14 15####Japanese####JJ
+person+country+name####(. :mod (. :c2/country  :name (. :n4/name  :op1 (. :"Japan" ))) :p2/person )####15 16####Japanese####JJ
+person+world-region+name####(. :mod (. :name (. :n2/name  :op1 (. :"Southeast" ) :op2 (. :"Asia" )) :w/world-region ) :p/person )####10 12####Southeast Asian####NNP NNPS
+person+country+name####(. :p/person  :source (. :c/country  :name (. :n/name  :op1 (. :"Singapore" ))))####1 2####Singaporean####NNP
+person+country+name####(. :mod (. :c3/country  :name (. :n3/name  :op1 (. :"Pakistan" ))) :p/person )####12 13####Pakistani####JJ
+person+country+name####(. :mod (.*0  :c3/country  :name (. :n3/name  :op1 (. :"North" ) :op2 (. :"Korea" ))) :p/person )####9 11####North Korea####NNP NNP
+person+country+name####(. :p3/person  :poss (. :c/country  :name (. :n/name  :op1 (. :"North" ) :op2 (. :"Korea" ))))####3 5####North Korean####NNP NNPS
+person+country+name####(. :p/person  :poss (. :c/country  :name (. :n2/name  :op1 (. :"North" ) :op2 (. :"Korea" ))))####4 6####North Korean####NNP NNPS
+person+country+name####(. :location (.*0  :c/country  :name (. :n/name  :op1 (. :"South" ) :op2 (. :"Korea" ))) :p/person )####9 11####South Korean####NNP NNPS
+person+region+name####(. :location (. :name (. :n2/name  :op1 (. :"Korea" )) :r/region ) :p/person )####16 17####Korean####JJ
+person+name-01+-####(. :ARG1-of (. :n10/name-01  :polarity (. :- )) :p/person )####16 17####unnamed####JJ
+person+world-region+name####(. :mod (. :name (. :n2/name  :op1 (. :"Kashmir" )) :w/world-region ) :p/person )####4 5####Kashmiri####NNP
+person+country+name####(. :location (. :c2/country  :name (. :n2/name  :op1 (. :"Taiwan" ))) :p2/person )####5 6####Taiwan####NNP
+person+country+name####(. :mod (. :c2/country  :name (. :n2/name  :op1 (. :"Iraq" ))) :p/person )####15 16####Iraqi####NNPS
+person+country+name####(. :mod (.*0  :c3/country  :name (. :n4/name  :op1 (. :"Egypt" ))) :p4/person )####16 17####Egyptian####NNP
+person+world-region+name####(. :mod (. :name (. :n7/name  :op1 (. :"West" )) :w/world-region ) :p5/person )####23 24####Westerners####NNPS
+person+religious-group+name####(. :mod (. :name (. :n5/name  :op1 (. :"Muslim" )) :r/religious-group ) :p4/person )####26 27####Muslim####JJ
+person+country+name####(. :mod (. :c6/country  :name (. :n7/name  :op1 (. :"Britain" ))) :p7/person )####10 11####British####NNPS
+person+country+name####(. :mod (. :c3/country  :name (. :n3/name  :op1 (. :"Australia" ))) :p8/person )####12 13####Australian####NNPS
+person+country+name####(. :mod (. :c4/country  :name (. :n4/name  :op1 (. :"Norway" ))) :p9/person )####14 15####Norwegian####NNPS
+person+religious-group+name####(. :mod (. :name (. :n5/name  :op1 (. :"Muslim" )) :r/religious-group ) :p5/person )####17 18####Muslim####JJ
+person+country+name####(. :mod (. :c2/country  :name (. :n2/name  :op1 (. :"Britain" ))) :p6/person )####9 10####British####NNP
+person+country+name####(. :mod (. :c3/country  :name (. :n3/name  :op1 (. :"Australia" ))) :p2/person )####11 12####Australian####NNPS
+person+country+name####(. :mod (. :c4/country  :name (. :n4/name  :op1 (. :"Norway" ))) :p3/person )####13 14####Norwegian####NNPS
+person+religious-group+name####(. :mod (. :name (. :n5/name  :op1 (. :"Muslim" )) :r/religious-group ) :p5/person )####27 28####Muslim####JJ
+person+depend-01+-####(. :ARG0-of (. :d2/depend-01  :polarity (. :- )) :p5/person )####19 20####independent####JJ
+person+country+name####(. :location (.*0  :c/country  :name (. :n3/name  :op1 (. :"Iran" ))) :p/person )####5 6####Iran####NNP
+person+country+name####(. :mod (. :c3/country  :name (. :n2/name  :op1 (. :"Iran" ))) :p/person )####3 4####Iranian####NNPS
+person+country+name####(. :mod (.*0  :c2/country  :name (. :n2/name  :op1 (. :"Iran" ))) :p/person )####18 19####Iran####NNP
+person+country+name####(. :mod (.*0  :c4/country  :name (. :n4/name  :op1 (. :"Yemen" ))) :p2/person )####20 21####Yemen####NNP
+person+country+name####(. :mod (.*0  :c5/country  :name (. :n4/name  :op1 (. :"Yemen" ))) :p2/person )####31 32####Yemen####NNP
+person+country+name####(. :mod (. :c3/country  :name (. :n6/name  :op1 (. :"Yemen" ))) :p3/person )####34 35####Yemeni####NNPS
+person+country+name####(. :mod (.*0  :c4/country  :name (. :n3/name  :op1 (. :"Yemen" ))) :p2/person )####22 23####Yemen####NNP
+person+ethnic-group+name####(. :mod (. :e2/ethnic-group  :name (. :n2/name  :op1 (. :"Hmong" ))) :p/person )####18 19####Hmong####NNS
+person+country+name####(. :mod (. :c/country  :name (. :n/name  :op1 (. :"Nicaragua" ))) :p/person )####0 1####Nicaraguan####NNS
+person+country+name####(. :mod (. :c/country  :name (. :n2/name  :op1 (. :"Nicaragua" ))) :p2/person )####4 5####Nicaragua####NNP
+person+country+name####(. :mod (. :c/country  :name (. :n/name  :op1 (. :"Israel" ))) :p/person )####1 2####Israeli####NNPS
+person+country+name####(. :mod (. :c3/country  :name (. :n3/name  :op1 (. :"Pakistan" ))) :p3/person )####31 32####Pakistani####NNS
+person+ethnic-group+name####(. :mod (. :e2/ethnic-group  :name (. :n2/name  :op1 (. :"Arab" ))) :p4/person )####34 35####Arab####NNPS
+person+country+name####(. :mod (. :c5/country  :name (. :n4/name  :op1 (. :"France" ))) :p3/person )####1 2####French####NNP
+person+religious-group+name####(. :mod (. :name (. :n2/name  :op1 (. :"Hinduism" )) :r2/religious-group ) :p2/person )####17 18####Hindu####NNP
+person+country+name####(. :mod (. :c4/country  :name (. :n4/name  :op1 (. :"Indonesia" ))) :p2/person )####5 6####Indonesian####NNP
+person+country+name####(. :mod (. :c5/country  :name (. :n5/name  :op1 (. :"Kuwait" ))) :p3/person )####8 9####Kuwaiti####NNP
+person+country+name####(. :mod (.*0  :c3/country  :name (. :n4/name  :op1 (. :"Iraq" ))) :p2/person )####19 20####Iraq####NNP
+person+country+name####(. :mod (.*0  :c/country  :name (. :n/name  :op1 (. :"Israel" ))) :p/person )####9 10####Israel####NNP
+person+country+name####(. :mod (. :c2/country  :name (. :n2/name  :op1 (. :"Palestine" ))) :p2/person )####18 19####Palestinian####JJ
+person+identify-01+-####(. :ARG1-of (. :i/identify-01  :polarity (. :- )) :p/person )####7 8####unidentified####JJ
+person+country+name####(. :mod (.*0  :c3/country  :name (. :n4/name  :op1 (. :"Yugoslavia" ))) :p2/person )####33 34####Yugoslavia####NNP
+person+country+name####(. :mod (. :c/country  :name (. :n2/name  :op1 (. :"Venezuela" ))) :p2/person )####6 7####Venezuelan####NNP
+person+country+name####(. :mod (.*0  :c/country  :name (. :n2/name  :op1 (. :"Venezuela" ))) :p2/person )####11 12####Venezuela####NNP
+person+country+name####(. :mod (.*0  :c/country  :name (. :n2/name  :op1 (. :"Venezuela" ))) :p2/person )####23 24####Venezuela####NNP
+person+country+name####(. :mod (. :c/country  :name (. :n2/name  :op1 (. :"Venezuela" ))) :p2/person )####3 4####Venezuelan####NNP
+person+country+name####(. :mod (.*0  :c/country  :name (. :n3/name  :op1 (. :"South" ) :op2 (. :"Africa" ))) :p/person )####29 31####South Africa####NNP NNP
+person+country+name####(. :mod (. :c/country  :name (. :n2/name  :op1 (. :"France" ))) :p2/person )####4 5####French####NNP
+person+country+name####(. :mod (. :c2/country  :name (. :n3/name  :op1 (. :"Brazil" ))) :p2/person )####16 17####Brazilian####NNS

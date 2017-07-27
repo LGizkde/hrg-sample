@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.26pt}
+\beamer@sectionintoc {1}{test}{1}{0}{1}
+\beamer@sectionintoc {2}{Synchronous Hyperedge Replacement Grammar Learning}{2}{0}{2}
+\beamer@subsectionintoc {2}{1}{Definition}{3}{0}{2}

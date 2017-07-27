@@ -1,0 +1,8 @@
+Dotchart: store data struct in earley
+Whenever to retrieve one item from the bin, if items are not sorted. Sort the undead items first and then retrieve
+
+Chart: each chart is initialized with a whole sentence, it maintain a dict of bins. Also it maintain some global statistics within the sentence
+
+Agenda is like a priority queue. heuristic is a function for order. Like CYK is simply the span of the items
+
+date-entity, 

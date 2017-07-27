@@ -1,0 +1,40 @@
+Dotchart:
+for each grammar there is a separate dotchart
+each dotchart would initialize a (N+1) * (N+1) * [] bin
+add dotitem(i, i) to bin[i][i] of dot chart
+
+dotcharts is a collection of dotcharts for all the grammars
+
+make_new_item: based on a rule, the ants, then build up a new item.
+for each feature, it has a separate feature object and has its own weight function.
+This might be slow, actually. It would also multply separate weight
+
+cky_spans: length from 1 to n, i from 1 to last position (i, j)
+
+high branch ops can be triggered in limitted situations, perhaps can be included in a separate grammar set.
+
+cubes are temporarily used to generate the top k items for each span (i, j) and avoid any choice of same l.h.s. variable
+
+Grammar organization: maintained as trie-similar tree structure
+grammar root: a node with sym_list as empty, hash of words
+TrieNode: rules-> map l.h.s. to rule bin., each word in f is hash key.
+
+The basic grammar structure:
+add rule: hash each word to a node, recording the symbol list. Until reach the last node, add rule to the rulebin of that node.
+add rule to node: each node has l.h.s. to rule bin map, add the rule to rule bin.
+
+Originally there is length 0 dotitems
+
+Dan's thought: the major complexity might come from the non-lexical rules instead of the lexical rules
+
+It's okay to start with some length-limitted sentences, like (30, 40) to learning. We can still dump the lexical rules though.
+
+Parsing steps (earley):
+1. initialize dotcharts (one for each grammar)
+for each dotchart (grammar), initialize length 0 items (i, i), each initialized with the grammar root for search.
+
+2. Go over all spans, from length small to large (i, j):
+(1) scan: one terminal (fword) at position j of sentence. stored in a TrieNode. Just start from node of dotitem at (i, j-1) and use fword[j-1] (j-th word) as the hash key. Get the next state, then create a new dotitem and add it to the new bin.
+(2) complete: 
+search all the dotitems in (k, j) and has a variable l.h.s., then put them in order according to variable types.
+starting from each node of dot item in (i, k), proceed with variable of (k, j), then produce a new dotitem of (i, j).

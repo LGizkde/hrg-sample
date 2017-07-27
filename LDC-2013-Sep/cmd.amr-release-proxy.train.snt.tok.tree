@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd ~/tools/stanford-parser-2011-09-14
+DIR=/disk2/work/amr/data/LDC-2013-Sep
+
+java -mx500m -cp "stanford-parser.jar:" edu.stanford.nlp.parser.lexparser.LexicalizedParser -sentences newline -outputFormat "penn" grammar/englishPCFG.ser.gz $DIR/amr-release-proxy.dev.snt > $DIR/amr-release-proxy.dev.snt.tree &
+java -mx500m -cp "stanford-parser.jar:" edu.stanford.nlp.parser.lexparser.LexicalizedParser -sentences newline -outputFormat "penn" grammar/englishPCFG.ser.gz $DIR/amr-release-proxy.test.snt > $DIR/amr-release-proxy.test.snt.tree &
+java -mx500m -cp "stanford-parser.jar:" edu.stanford.nlp.parser.lexparser.LexicalizedParser -sentences newline -outputFormat "penn" grammar/englishPCFG.ser.gz $DIR/amr-release-proxy.train.snt > $DIR/amr-release-proxy.train.snt.tree

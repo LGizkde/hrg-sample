@@ -1,0 +1,3 @@
+
+
+Hk: Enter commit message.  Lines beginning with 'HG:' are removed.

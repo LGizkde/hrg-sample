@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cat amr-release-proxy.txt.FIXED | nltot | grep '::preferred' | grep -v '_200[78]' | ttonl > amr-release-proxy.train
+cat amr-release-proxy.txt.FIXED | nltot | grep '::preferred' | grep '_2007' | ttonl > amr-release-proxy.dev 
+cat amr-release-proxy.txt.FIXED | nltot | grep '::preferred' | grep '_2008' | ttonl > amr-release-proxy.test 

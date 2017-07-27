@@ -1,0 +1,10 @@
+(ROOT
+  (NP (NNP 2007-01-16)))
+
+(ROOT
+  (NP
+    (NP (NNP Singapore))
+    (PRN (-LRB- -LRB-)
+      (NP (NNP SG))
+      (-RRB- -RRB-))))
+

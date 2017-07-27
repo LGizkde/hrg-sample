@@ -1,0 +1,5 @@
+#!/bin/bash
+
+scala -classpath ../../src/ edu.cmu.lti.nlp.amr.CorpusTool < amr-release-proxy.train --tokenized amr-release-proxy.train.snt.tok > amr-release-proxy.train.tok
+scala -classpath ../../src/ edu.cmu.lti.nlp.amr.CorpusTool < amr-release-proxy.dev --tokenized amr-release-proxy.dev.snt.tok > amr-release-proxy.dev.tok
+scala -classpath ../../src/ edu.cmu.lti.nlp.amr.CorpusTool < amr-release-proxy.test --tokenized amr-release-proxy.test.snt.tok > amr-release-proxy.test.tok

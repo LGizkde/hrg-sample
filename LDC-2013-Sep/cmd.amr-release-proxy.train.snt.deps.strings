@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cat amr-release-proxy.train.snt.deps | cut -f 2 | nltot | sed 's/\t//g' > amr-release-proxy.train.snt.deps.strings

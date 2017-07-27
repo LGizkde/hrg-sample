@@ -1,0 +1,11 @@
+(m / man 
+ :ARG1-of (c / charge-05 
+	 :ARG1 (t / traffic-00 
+		 :ARG0 (d6 / drug) 
+		 :ARG1 c 
+		 :ARG3 (c2 / country 
+			 :name (n / name 
+				 :op1 "Singapore"))) 
+	 :ARG2 (c3 / country 
+		 :name (n3 / name 
+			 :op1 "Australia"))))

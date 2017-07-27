@@ -1,0 +1,145 @@
+#!/usr/bin/python
+import sys
+import time
+import pickle
+import os
+import cPickle
+import alignment
+import hypergraph
+from fragment_hypergraph import FragmentHGNode, FragmentHGEdge
+import smatch
+from smatch import get_amr_line
+import amr_graph
+from amr_graph import *
+import logger
+from rule import Rule
+
+import gflags
+FLAGS = gflags.FLAGS
+
+gflags.DEFINE_string(
+    'fragment_nonterminal',
+    'X',
+    'Nonterminal used for phrase forest.')
+gflags.DEFINE_bool(
+    'delete_unaligned',
+    False,
+    'Delete unaligned words in phrase decomposition forest.')
+
+FRAGMENT_NT = '[%s]' % FLAGS.fragment_nonterminal
+def get_wordseq_part(line):
+    return line.strip().split('|||')[1].strip()
+
+#def get_seq_mapping(f):
+#    seq_map = {}
+#    for line in f:
+def extract_aligned_rules(amr_file, sent_file, align_file, grammar_file, unaligned_file):
+    f1 = open(amr_file, 'r')
+    f2 = open(align_file, 'r')
+    f3 = open(sent_file, 'r')
+    gram_f = open(grammar_file, 'w')
+    unaligned_f = open(unaligned_file, 'w')
+    amr_line = get_amr_line(f1)
+    alignment_line = f2.readline()
+    sent = f3.readline()
+    frag_forests = []
+    sent_num = 0
+
+    concept_voc_set = set()
+    while amr_line and amr_line != '':
+        assert alignment_line != '', 'The following amr graph does not have a corresponding alignment:\n%s' % amr_line
+
+        amr_graph = AMRGraph(amr_line)
+        sent = sent.strip()
+        amr_graph.set_sentence(sent.split())
+        unaligned_toks = []
+
+        #logger.writeln(str(amr_graph))
+
+        alignments = alignment_line.strip().split()
+        alignments = [tuple(align.split('|')) for align in alignments]
+        alignments = sorted(alignments, key=lambda align: int(align[0].split('-')[0]))
+        aligned_fragments = []
+
+        curr_start = 0
+        for align in alignments:
+            s_side = align[0]
+            f_side = align[1]
+            s_start = s_side.split('-')[0]
+            s_start = (int)(s_start)
+            s_end = s_side.split('-')[1]
+            s_end = (int)(s_end)
+            if s_start > curr_start:
+                unaligned_toks.extend(list(xrange(curr_start, s_start)))
+            curr_start = s_end
+            fragment = amr_graph.retrieve_fragment(f_side)
+
+            fragment.set_span(s_start, s_end)
+            aligned_fragments.append((s_start, s_end, fragment))
+        if curr_start < len(amr_graph.sent):
+            unaligned_toks.extend(list(xrange(curr_start, len(amr_graph.sent))))
+
+        aligned_fragments = sorted(aligned_fragments) #This sort this used to constrain the possible combinations
+
+        aligned_fragments = [z for x,y,z in aligned_fragments]
+        aligned_strs = []
+        for frag in aligned_fragments:
+            new_rule = Rule()
+            new_rule.lhs = intern('[A1-1]')
+            new_rule.f = frag.str_list()
+            visited_index = set()
+            frag.init_new_hgraph(new_rule.e, frag.root, {}, visited_index, None, None, None, {}, {})
+            aligned_strs.append('%d-%d*%s' % (frag.start, frag.end, str(new_rule.e)))
+            new_rule.feats = [1.0, 0.0, 0.0]
+            for word in new_rule.f:
+                concept_voc_set.add(word) #extract all vocs
+            #for i in xrange(10):
+            gram_f.write('%s\n' % new_rule.dumped_format())
+            next_pos = frag.end
+            try:
+                if frag.graph.sent[next_pos] == '(':  #Some unknown tokens
+                    while frag.graph.sent[next_pos] != ')':
+                        new_rule.f.append(frag.graph.sent[next_pos])
+                        next_pos += 1
+                    new_rule.f.append(')')
+                    for word in new_rule.f:
+                        concept_voc_set.add(word) #extract all vocs
+                    #for i in xrange(10):
+                    gram_f.write('%s\n' % new_rule.dumped_format())
+            except:
+                continue
+
+        gram_f.write('\n')
+        sent_num += 1
+        try:
+            for tok in unaligned_toks:
+                gram_f.write('[A1-0] ||| %s ||| (.) ||| 1.0 0.0 0.0\n' % amr_graph.sent[tok])
+        except:
+            print sent_num
+            print ' '.join(amr_graph.sent)
+            print unaligned_toks
+            sys.exit(-1)
+
+        #concept_f = open('dev.concept.voc', 'w')
+        unaligned_f.write('%s ||| %s ||| %s\n' % (sent, ' '.join([str(k) for k in unaligned_toks]), '++'.join(aligned_strs)))
+        #for word in concept_voc_set:
+        #    concept_f.write('%s\n' % word)
+        #concept_f.close()
+
+        amr_line = get_amr_line(f1)
+        alignment_line = f2.readline()
+        sent = f3.readline()
+
+    f1.close()
+    f2.close()
+    f3.close()
+    unaligned_f.close()
+    gram_f.close()
+
+if __name__ == '__main__':
+    amr_file = sys.argv[1]
+    sentence_file = sys.argv[2]
+    alignment_file = sys.argv[3]
+    grammar_file = sys.argv[4]
+    unaligned_file = sys.argv[5]
+    extract_aligned_rules(amr_file, sentence_file, alignment_file, grammar_file, unaligned_file)

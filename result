@@ -1,0 +1,17 @@
+Finished sentence 0
+Finished sentence 1
+Finished sentence 2
+Finished sentence 3
+Finished sentence 4
+Finished sentence 5
+Finished sentence 6
+Traceback (most recent call last):
+  File "./hrg_sampler.py", line 1443, in <module>
+    frag_forests = initialize_fragment_forest(amr_file, align_file)
+  File "/home/vax6/p43/mt-scratch2/xpeng/hrg-sample/workshop/decoder/fragment_forest.py", line 244, in initialize_fragment_forest
+    hg = fragment_decomposition_forest(aligned_fragments, unaligned_fragments)
+  File "/home/vax6/p43/mt-scratch2/xpeng/hrg-sample/workshop/decoder/fragment_forest.py", line 101, in fragment_decomposition_forest
+    new_frag = combine_fragments(node1.frag, node2.frag)
+  File "/home/vax6/p43/mt-scratch2/xpeng/hrg-sample/workshop/decoder/amr_fragment.py", line 138, in combine_fragments
+    assert f1_rooted or f2_rooted, 'Fragment having two roots found by combining %s, %s' % (str(f1), str(f2))
+AssertionError: Fragment having two roots found by combining . :ARG0 (. :u/university :name (. :n/name :op1 (. :Naif) :op2 (. :Arab) :op3 (. :Academy) :op4 (. :for) :op5 (. :Security) :op6 (. :Sciences))) :manner (.), . :ARG0 (.)

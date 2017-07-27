@@ -1,0 +1,13 @@
+#python ./hrg_sampler.py --dump hrg-rules --iter 100 --model DP train.amr train.snt train.alignment small_sets
+#python ./hrg_sampler.py --dump hrg-test --iter 20 --model DP train.amr train.snt train.alignment small_sets
+#python ./hrg_sampler.py --data divide_forest --file_indexes 2+3+4+5+6+7
+#python ./hrg_sampler.py --dump DP-second--iter 160 --model DP --dump_iter 5 --data divide_forest --file_indexes 0 --nodes=node84
+#python ./hrg_sampler.py --dump DP-test --iter 40 --model DP --dump_iter 5 --data test_forest --file_indexes 0+1 --nodes=node84,node85 --max_type=6
+#python ./hrg_sampler.py --dump DP-test-type3 --iter 10 --model DP --dump_iter 5 --data test_forest1 --file_indexes 0 --nodes=cycle2 --max_type=6
+#python $WORKSHOP/decoder/anneal_hrg_sampler.py --dump $WORKSHOP/decoder/DP-non-anneal --iter 160 --model DP --dump_iter 5 --sample_file $WORKSHOP/decoder/divide_forest/sample_0
+#python $WORKSHOP/decoder/anneal_hrg_sampler.py --dump $WORKSHOP/decoder/DP-anneal-third --iter 160 --model DP --dump_iter 5 --sample_file $WORKSHOP/decoder/divide_forest/sample_0 --anneal --annealing_intervals 3 --annealing_ceiling 1.0 --annealing_stepsize 0.1
+#python $WORKSHOP/decoder/anneal_hrg_sampler.py --dump $WORKSHOP/decoder/DP-anneal-fifth --iter 160 --model DP --dump_iter 500 --sample_file $WORKSHOP/decoder/divide_forest/sample_0 --anneal --annealing_intervals 5 --annealing_ceiling 1.5 --annealing_stepsize 0.2
+#python ./hrg_sampler.py --dump DP-type5 --iter 100 --model DP --dump_iter 5 --data forest_type5 --file_indexes 0 --nodes=node84
+#python ./hrg_sampler.py --dump DP- --iter 100 --model DP --dump_iter 5 --data forest_tmp --file_indexes 0+1+2+3+4+5+6+7 --nodes=node86,node87,node85,node88,node89,node90,node91,cycle2
+#python ./hrg_sampler.py --dump DP-fixed --iter 200 --model DP --dump_iter 2 --data forest_tmp --file_indexes 0 --nodes=node85 --href
+python ./hrg_sampler.py --dump DP-test --iter 10 --model DP --dump_iter 2 --data test_forest1 --file_indexes 0 --nodes=node85 --href

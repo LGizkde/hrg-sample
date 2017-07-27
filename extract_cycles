@@ -1,0 +1,1 @@
+./extract_cycles.py cycles train.amr train.alignment train.snt train.cycle.amr train.cycle.alignment train.cycle.snt

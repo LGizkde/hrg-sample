@@ -1,0 +1,524 @@
+amr file: train.amr
+alignment file: train.alignment
+(s / state-01
+	:ARG0 (g / group
+		:ARG0-of (o / oppose-01
+			:ARG1 (c3 / country
+				:name (n2 / name
+					:op1 "Japan"))))
+	:ARG1 (a / attack-01
+		:ARG1 (c / culture
+			:source (c2 / country
+				:name (n / name
+					:op1 "South"
+					:op2 "Korea")))))
+(s / state-01
+	:purpose (g / gain-02
+		:ARG1 (p / person
+			:ARG0-of (s2 / support-01))
+		:purpose (j / join-02
+			:ARG0 p
+			:ARG1 (l / lobby-01))))
+(b / become-01
+	:ARG1 (w / warfare
+		:mod (c / cyber))
+	:ARG2 (w2 / weapon
+		:mod (c2 / common))
+	:beneficiary (p / person
+		:source (c3 / country
+			:name (n / name
+				:op1 "South"
+				:op2 "Korea"))))
+(i / include-91
+	:ARG1 (t / they)
+	:ARG2 (n / nation
+		:ARG0-of (s / savvy-01
+			:ARG1 (i2 / internet)
+			:degree (m / most))
+		:location (w / world))
+	:ARG3 (o / one))
+(d / disable-01
+	:ARG0 (p / person
+		:ARG0-of (c / campaign-01
+			:mod (c2 / cyber))
+		:source (c3 / country
+			:name (n / name
+				:op1 "South"
+				:op2 "Korea")))
+	:ARG1 (w / website
+		:poss (m / ministry
+			:mod (e / education)
+			:part-of (c4 / country
+				:name (n2 / name
+					:op1 "Japan"))))
+	:time (y / year
+		:mod (l / last))
+	:purpose (p2 / protest-01
+		:ARG0 c
+		:ARG1 (b / book
+			:topic (h / history)
+			:ARG1-of (a / accuse-01
+				:ARG2 (s / skim-01
+					:ARG1 (r / record
+						:mod (w2 / wartime)
+						:poss c4
+						:location (c5 / continent
+							:name (n3 / name
+								:op1 "Asia"))))))))
+(f / form-01
+	:ARG1 (g / group
+		:mod (n / nationalist))
+	:purpose (c / campaign-01
+		:ARG0 g
+		:ARG1 (a / against
+			:op1 (c2 / country
+				:name (n2 / name
+					:op1 "Japan")))))
+(s / say-01
+	:ARG0 (g / group)
+	:ARG1 (a / and
+		:op1 (b / batter-01
+			:ARG0 (p / person
+				:ARG0-of (b2 / broadcast-01
+					:mod (f / foreign)))
+			:ARG1 (c / culture
+				:mod (e / eat-01
+					:ARG1 (m / meat
+						:consist-of (d / dog)))))
+		:op2 (b3 / behave-01
+			:ARG1 (i / insult-01
+				:ARG0 b3
+				:ARG1 g))))
+(t / trample-01
+	:ARG0 (i / it)
+	:ARG1 (t2 / tradition
+		:poss (c / country
+			:quant 1)))
+(s / say-01
+	:ARG0 (g / group)
+	:ARG1 (s2 / show-01
+		:ARG0 (p / person
+			:ARG0-of (b / broadcast-01)
+			:source (f / foreign))
+		:ARG1 (r / remorse
+			:mod (a / any)
+			:topic (c / culture
+				:poss p
+				:mod (e2 / eat-01
+					:ARG1 (a2 / and
+						:op1 (s3 / snail)
+						:op2 (h / horse)))))
+		:polarity -))
+(a / attack-01
+	:mod (c / cyber)
+	:purpose (s / show-01
+		:ARG1 (p / power
+			:poss (a2 / and
+				:op1 (p2 / person
+					:source (c2 / country
+						:name (n / name
+							:op1 "South"
+							:op2 "Korea")))
+				:op2 (p3 / person
+					:source (c3 / continent
+						:name (n2 / name
+							:op1 "Asia"))))
+			:prep-against (a3 / and
+				:op1 (s2 / sense-01
+					:ARG0 (r / region
+						:name (n3 / name
+							:op1 "the"
+							:op2 "West"))
+					:ARG1 (s3 / superior))
+				:op2 (i / ignorance
+					:topic (h / history
+						:poss c2))))))
+(s / say-01
+	:ARG0 (g / group
+		:mod (a / another))
+	:ARG1 (a2 / and
+		:op1 (l / launch-01
+			:ARG0 g
+			:ARG1 (a3 / association
+				:consist-of (p / person
+					:quant (a4 / around
+						:op1 100)
+					:ARG0-of (o / own-01
+						:ARG1 (r / restaurant
+							:mod (m / meat
+								:consist-of (d2 / dog))))
+					:location (r2 / region
+						:name (n2 / name
+							:op1 "Seoul"))))
+			:time (d / date-entity
+				:weekday (m2 / monday)
+				:mod (n / next)))
+		:op2 (h / hold-04
+			:ARG0 g
+			:ARG1 (s2 / seminar
+				:ARG0-of (p2 / promote-02
+					:ARG1 m)))))
+number of sentences: 11
+initialization. split=False
+Total number of rules: 13
+Total number of rules: 9
+Total number of rules: 11
+Total number of rules: 15
+Total number of rules: 35
+Total number of rules: 11
+Total number of rules: 19
+Total number of rules: 9
+Total number of rules: 23
+Total number of rules: 25
+Total number of rules: 37
+207 rules, 114 rule types, loglikelihood: -889.397651817
+Rule hash is -485501329501530704, the Rule count is 53
+Rule hash is -575291365239868532, the Rule count is 6
+Rule hash is -4164170319040090219, the Rule count is 6
+Rule hash is -2835731550410471354, the Rule count is 5
+Rule hash is -3064085468768500622, the Rule count is 5
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is 2137438397248290973, the Rule count is 3
+Rule hash is 8850023107006813529, the Rule count is 3
+Rule hash is -5112771606647028305, the Rule count is 3
+Rule hash is -9002169993986151426, the Rule count is 3
+
+iteration 1
+iteration time: 2.95135211945 sec
+top ten rule #:
+Rule hash is -485501329501530704, the Rule count is 27
+Rule hash is -2835731550410471354, the Rule count is 5
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is -3064085468768500622, the Rule count is 3
+Rule hash is 8850023107006813529, the Rule count is 3
+Rule hash is -575291365239868532, the Rule count is 3
+Rule hash is -5112771606647028305, the Rule count is 3
+Rule hash is -9026975008836738965, the Rule count is 2
+Rule hash is -4420380902892386624, the Rule count is 2
+Rule hash is 1666793706919141670, the Rule count is 2
+130 rules, 84 rule types, loglikelihood: -739.489174059
+memory: 399847424.0
+resident memory: 210124800.0
+
+iteration 2
+iteration time: 2.09763002396 sec
+top ten rule #:
+Rule hash is -485501329501530704, the Rule count is 17
+Rule hash is -2835731550410471354, the Rule count is 4
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is -9026975008836738965, the Rule count is 2
+Rule hash is 1666793706919141670, the Rule count is 2
+Rule hash is 8850023107006813529, the Rule count is 2
+Rule hash is -5112771606647028305, the Rule count is 2
+Rule hash is 8644592052273560492, the Rule count is 1
+Rule hash is 1354197997868752402, the Rule count is 1
+Rule hash is 463208914416101413, the Rule count is 1
+91 rules, 66 rule types, loglikelihood: -696.764159025
+memory: 399847424.0
+resident memory: 210124800.0
+
+iteration 3
+iteration time: 1.77131509781 sec
+top ten rule #:
+Rule hash is -485501329501530704, the Rule count is 8
+Rule hash is -2835731550410471354, the Rule count is 4
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is -5112771606647028305, the Rule count is 3
+Rule hash is -3064085468768500622, the Rule count is 2
+Rule hash is 1666793706919141670, the Rule count is 2
+Rule hash is 4764136786814057478, the Rule count is 1
+Rule hash is -7331997657516237281, the Rule count is 1
+Rule hash is -2456178163415707101, the Rule count is 1
+Rule hash is 2245696988728827433, the Rule count is 1
+83 rules, 67 rule types, loglikelihood: -662.931174504
+memory: 399847424.0
+resident memory: 210124800.0
+
+iteration 4
+iteration time: 1.74804019928 sec
+top ten rule #:
+Rule hash is -485501329501530704, the Rule count is 7
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is -2835731550410471354, the Rule count is 3
+Rule hash is 1666793706919141670, the Rule count is 2
+Rule hash is -5112771606647028305, the Rule count is 2
+Rule hash is 7988085722313697281, the Rule count is 1
+Rule hash is -5141465879149688306, the Rule count is 1
+Rule hash is -4635470187049994734, the Rule count is 1
+Rule hash is 1405170884393075732, the Rule count is 1
+Rule hash is -2456178163415707101, the Rule count is 1
+73 rules, 61 rule types, loglikelihood: -645.122750705
+memory: 399847424.0
+resident memory: 210124800.0
+
+iteration 5
+iteration time: 1.70342683792 sec
+top ten rule #:
+Rule hash is -485501329501530704, the Rule count is 4
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is -2835731550410471354, the Rule count is 3
+Rule hash is 1666793706919141670, the Rule count is 2
+Rule hash is 4764136786814057478, the Rule count is 1
+Rule hash is 1405170884393075732, the Rule count is 1
+Rule hash is -2456178163415707101, the Rule count is 1
+Rule hash is 2170483484828267560, the Rule count is 1
+Rule hash is -8652350713675847123, the Rule count is 1
+Rule hash is 8934516672028105267, the Rule count is 1
+73 rules, 65 rule types, loglikelihood: -645.944101996
+memory: 399847424.0
+resident memory: 210124800.0
+
+iteration 6
+iteration time: 1.69822907448 sec
+top ten rule #:
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is -2835731550410471354, the Rule count is 3
+Rule hash is 1666793706919141670, the Rule count is 2
+Rule hash is -2709370258004155382, the Rule count is 1
+Rule hash is 3705906613593844241, the Rule count is 1
+Rule hash is -2692976178993603050, the Rule count is 1
+Rule hash is 2397233869003545120, the Rule count is 1
+Rule hash is -2456178163415707101, the Rule count is 1
+Rule hash is 590969788941219368, the Rule count is 1
+Rule hash is 1446936507718335239, the Rule count is 1
+72 rules, 67 rule types, loglikelihood: -649.926769224
+memory: 399847424.0
+resident memory: 210124800.0
+
+iteration 7
+iteration time: 1.7675909996 sec
+top ten rule #:
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is -2835731550410471354, the Rule count is 3
+Rule hash is 1666793706919141670, the Rule count is 2
+Rule hash is 8850023107006813529, the Rule count is 2
+Rule hash is -5112771606647028305, the Rule count is 2
+Rule hash is -485501329501530704, the Rule count is 2
+Rule hash is -5589778809061719007, the Rule count is 1
+Rule hash is 4764136786814057478, the Rule count is 1
+Rule hash is 6880778516910529964, the Rule count is 1
+Rule hash is -5141465879149688306, the Rule count is 1
+72 rules, 64 rule types, loglikelihood: -651.674955629
+memory: 399847424.0
+resident memory: 210124800.0
+
+iteration 8
+iteration time: 1.69544196129 sec
+top ten rule #:
+Rule hash is -2835731550410471354, the Rule count is 4
+Rule hash is -485501329501530704, the Rule count is 4
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is 1666793706919141670, the Rule count is 2
+Rule hash is -5112771606647028305, the Rule count is 2
+Rule hash is 8082466538008401412, the Rule count is 1
+Rule hash is 4764136786814057478, the Rule count is 1
+Rule hash is 3434491174438773280, the Rule count is 1
+Rule hash is 8235955945504444994, the Rule count is 1
+Rule hash is -4861452741088948645, the Rule count is 1
+75 rules, 65 rule types, loglikelihood: -647.129936433
+memory: 399847424.0
+resident memory: 210124800.0
+
+iteration 9
+iteration time: 1.80769395828 sec
+top ten rule #:
+Rule hash is -2835731550410471354, the Rule count is 5
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is 1666793706919141670, the Rule count is 2
+Rule hash is -1659407437623208957, the Rule count is 1
+Rule hash is 3705906613593844241, the Rule count is 1
+Rule hash is -4635470187049994734, the Rule count is 1
+Rule hash is -7784672882108831328, the Rule count is 1
+Rule hash is -3090580949546236898, the Rule count is 1
+Rule hash is -7491228708070447567, the Rule count is 1
+Rule hash is 6371405704619725877, the Rule count is 1
+70 rules, 63 rule types, loglikelihood: -652.683902074
+memory: 399847424.0
+resident memory: 210124800.0
+
+iteration 10
+iteration time: 1.68653893471 sec
+top ten rule #:
+Rule hash is -2835731550410471354, the Rule count is 4
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is -4164170319040090219, the Rule count is 3
+Rule hash is 1666793706919141670, the Rule count is 2
+Rule hash is 8850023107006813529, the Rule count is 2
+Rule hash is -4219874022542699513, the Rule count is 1
+Rule hash is -2709370258004155382, the Rule count is 1
+Rule hash is 3712202535913543511, the Rule count is 1
+Rule hash is -4635470187049994734, the Rule count is 1
+Rule hash is -6522849353519398994, the Rule count is 1
+69 rules, 60 rule types, loglikelihood: -646.197025633
+memory: 399847424.0
+resident memory: 210124800.0
+
+iteration 11
+iteration time: 1.74691104889 sec
+top ten rule #:
+Rule hash is -2835731550410471354, the Rule count is 4
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is -4164170319040090219, the Rule count is 3
+Rule hash is 1666793706919141670, the Rule count is 2
+Rule hash is 8850023107006813529, the Rule count is 2
+Rule hash is 7988085722313697281, the Rule count is 1
+Rule hash is 3712202535913543511, the Rule count is 1
+Rule hash is -8652350713675847123, the Rule count is 1
+Rule hash is 7971320656858857303, the Rule count is 1
+Rule hash is 6371405704619725877, the Rule count is 1
+66 rules, 57 rule types, loglikelihood: -645.352696262
+memory: 399847424.0
+resident memory: 210124800.0
+
+iteration 12
+iteration time: 1.74010300636 sec
+top ten rule #:
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is -2835731550410471354, the Rule count is 3
+Rule hash is 1666793706919141670, the Rule count is 2
+Rule hash is 8850023107006813529, the Rule count is 2
+Rule hash is -4164170319040090219, the Rule count is 2
+Rule hash is -4219874022542699513, the Rule count is 1
+Rule hash is 4925473978218728488, the Rule count is 1
+Rule hash is 6371405704619725877, the Rule count is 1
+Rule hash is 2967369187685910590, the Rule count is 1
+Rule hash is -4842608196273404855, the Rule count is 1
+67 rules, 60 rule types, loglikelihood: -638.943017548
+memory: 399847424.0
+resident memory: 210124800.0
+
+iteration 13
+iteration time: 1.70086598396 sec
+top ten rule #:
+Rule hash is -3064085468768500622, the Rule count is 4
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is -2835731550410471354, the Rule count is 3
+Rule hash is 1666793706919141670, the Rule count is 2
+Rule hash is 4764136786814057478, the Rule count is 1
+Rule hash is -4619190729725862895, the Rule count is 1
+Rule hash is -846142577992628717, the Rule count is 1
+Rule hash is -1692454498310258142, the Rule count is 1
+Rule hash is 1458912235061827638, the Rule count is 1
+Rule hash is 1084982581915918912, the Rule count is 1
+68 rules, 60 rule types, loglikelihood: -661.807608463
+memory: 399847424.0
+resident memory: 210124800.0
+
+iteration 14
+iteration time: 1.73049521446 sec
+top ten rule #:
+Rule hash is -2835731550410471354, the Rule count is 4
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is 1550069197551866974, the Rule count is 2
+Rule hash is -3064085468768500622, the Rule count is 2
+Rule hash is 1666793706919141670, the Rule count is 2
+Rule hash is 8298419343301447708, the Rule count is 1
+Rule hash is 2430942286299052579, the Rule count is 1
+Rule hash is -5392332292604360650, the Rule count is 1
+Rule hash is 6476416154678985785, the Rule count is 1
+Rule hash is -7266008532320018166, the Rule count is 1
+73 rules, 65 rule types, loglikelihood: -638.23334568
+memory: 399847424.0
+resident memory: 210124800.0
+
+iteration 15
+iteration time: 2.33647608757 sec
+top ten rule #:
+Rule hash is -2835731550410471354, the Rule count is 4
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is -3064085468768500622, the Rule count is 3
+Rule hash is 1666793706919141670, the Rule count is 2
+Rule hash is 7988085722313697281, the Rule count is 1
+Rule hash is 3705906613593844241, the Rule count is 1
+Rule hash is 8298419343301447708, the Rule count is 1
+Rule hash is -2048719943362929105, the Rule count is 1
+Rule hash is 5612088354685457979, the Rule count is 1
+Rule hash is 1084982581915918912, the Rule count is 1
+64 rules, 56 rule types, loglikelihood: -632.880256445
+memory: 399847424.0
+resident memory: 210124800.0
+
+iteration 16
+iteration time: 1.64390301704 sec
+top ten rule #:
+Rule hash is -2835731550410471354, the Rule count is 4
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is 1666793706919141670, the Rule count is 2
+Rule hash is -2457419067517942272, the Rule count is 1
+Rule hash is 3705906613593844241, the Rule count is 1
+Rule hash is 8298419343301447708, the Rule count is 1
+Rule hash is 2170483484828267560, the Rule count is 1
+Rule hash is 1446936507718335239, the Rule count is 1
+Rule hash is 3075135466751657138, the Rule count is 1
+Rule hash is -5392332292604360650, the Rule count is 1
+71 rules, 65 rule types, loglikelihood: -646.067272244
+memory: 399847424.0
+resident memory: 210124800.0
+
+iteration 17
+iteration time: 1.59552288055 sec
+top ten rule #:
+Rule hash is -2835731550410471354, the Rule count is 4
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is -3064085468768500622, the Rule count is 2
+Rule hash is 1666793706919141670, the Rule count is 2
+Rule hash is -4635470187049994734, the Rule count is 1
+Rule hash is 8298419343301447708, the Rule count is 1
+Rule hash is 4044848761450282014, the Rule count is 1
+Rule hash is -2456178163415707101, the Rule count is 1
+Rule hash is -7865851261917557705, the Rule count is 1
+Rule hash is -5035040261168624579, the Rule count is 1
+62 rules, 55 rule types, loglikelihood: -629.68177195
+memory: 399847424.0
+resident memory: 210124800.0
+
+iteration 18
+iteration time: 1.65066504478 sec
+top ten rule #:
+Rule hash is -2835731550410471354, the Rule count is 5
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is 1666793706919141670, the Rule count is 2
+Rule hash is -7152873826761422640, the Rule count is 2
+Rule hash is 509500295413961470, the Rule count is 2
+Rule hash is -4219874022542699513, the Rule count is 1
+Rule hash is -2709370258004155382, the Rule count is 1
+Rule hash is 7344147572061544203, the Rule count is 1
+Rule hash is -7521451568014241012, the Rule count is 1
+Rule hash is -4693425915511004911, the Rule count is 1
+72 rules, 63 rule types, loglikelihood: -635.808320661
+memory: 399847424.0
+resident memory: 210124800.0
+
+iteration 19
+iteration time: 1.79333090782 sec
+top ten rule #:
+Rule hash is -2835731550410471354, the Rule count is 4
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is 1666793706919141670, the Rule count is 2
+Rule hash is -9026975008836738965, the Rule count is 2
+Rule hash is -3064085468768500622, the Rule count is 2
+Rule hash is -7152873826761422640, the Rule count is 2
+Rule hash is -7120389192545027072, the Rule count is 1
+Rule hash is 7988085722313697281, the Rule count is 1
+Rule hash is -2335048899923355390, the Rule count is 1
+Rule hash is -937307774001638394, the Rule count is 1
+70 rules, 61 rule types, loglikelihood: -632.404329985
+memory: 399847424.0
+resident memory: 210124800.0
+
+iteration 20
+iteration time: 1.63493490219 sec
+top ten rule #:
+Rule hash is 6654180723289971745, the Rule count is 3
+Rule hash is -2835731550410471354, the Rule count is 3
+Rule hash is 1666793706919141670, the Rule count is 2
+Rule hash is -3064085468768500622, the Rule count is 2
+Rule hash is 509500295413961470, the Rule count is 2
+Rule hash is 4246390161485134294, the Rule count is 1
+Rule hash is -7521451568014241012, the Rule count is 1
+Rule hash is -4693425915511004911, the Rule count is 1
+Rule hash is -4635470187049994734, the Rule count is 1
+Rule hash is 4044848761450282014, the Rule count is 1
+67 rules, 60 rule types, loglikelihood: -635.987519613
+memory: 399847424.0
+resident memory: 210124800.0

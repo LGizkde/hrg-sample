@@ -1,0 +1,4 @@
+#./lemmatize_snts.py ./train.snt ./train.snt.lemma ./infl.lemma ./trans.lemma ./train.pos
+./lemmatize_snts.py ./dev.snt ./dev.snt.lemma ./infl.lemma ./trans.lemma ./dev.pos
+#./lemmatize_snts.py ./test.snt ./test.snt.lemma ./infl.lemma ./trans.lemma
+#./lemmatize_snts.py ./train.cycle.snt ./train.cycle.snt.lemma ./infl.lemma ./trans.lemma

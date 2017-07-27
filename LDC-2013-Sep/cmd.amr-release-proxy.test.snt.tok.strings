@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cat amr-release-proxy.test.snt.tok | sed 's/ //g' > amr-release-proxy.test.snt.tok.strings

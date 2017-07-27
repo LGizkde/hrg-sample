@@ -1,0 +1,7 @@
+#python ./dump_sample.py --data divide_forest --file_indexes 0+1+2+3+4+5+6+7
+#python ./dump_sample.py --data ./forest_all_cycle --file_indexes 0
+#python ./dump_sample.py --data test_forest --file_indexes 0+1+2+3+4+5+6+7
+#python ./dump_sample.py --data forest_tmp --file_indexes 0+1+2+3+4+5+6+7
+#python ./dump_sample.py --data forest_type5 --file_indexes 0
+#python ./dump_sample.py --data forest_tmp --file_indexes 0
+python ./dump_sample.py --data test_forest1 --file_indexes 0

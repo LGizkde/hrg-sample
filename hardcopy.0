@@ -1,0 +1,51 @@
+ 18         self.total = total_                                    |  6     def __init__(self, name_, email_, grades_, desc_):  | 33                 continue                               |[1:persons]*
+ 19         self.n_items = len(items_)                             |  7         self.name = name_                               | 34             part = int(g)                              |[2:mail.py]*
+ 20         self.items = items_                                    |  8         self.email = email_                             | 35             self.grade += part                         |[4:mail_the_gra
+ 21         self.students = []                                     |  9         self.grades = grades_                           | 36             self.breakdown += '%d, ' % part            |[5:comments]*
+ 22                                                                | 10         self.desc = desc_                               | 37         self.breakdown = self.breakdown.rstrip(', ')   |~
+ 23     def set_total(self, total_):                               | 11                                                         | 38                                                        |~
+ 24         self.total = total_                                    | 12     def get_firstname(self):                            | 39     def __str__(self) :                                |~
+ 25                                                                | 13         return ' '.join(self.name.split()[:-1])         | 40         s = "Name: %s (%s)\n" \                        |~
+ 26     def register_student(self, st):                            | 14                                                         | 41         "e-mail: %s\n" \                               |~
+ 27         self.students.append(st)                               | 15 class Performance(object):                              | 42         "Grade total: %d\n" \                          |~
+ 28                                                                | 16     def __init__(self, task_, total_ = 100, items_ =    | 43         "Detailed breakdown: %s\n" \                   |~
+ 29     def inform_students(self):                                 |    None):                                                  | 44         "Grading comments: %s\n" % (self.name, self.   |~
+ 30         for st in self.students:                               | 17         self.task = task_                               |    rank, self.email,                                      |~
+ 31             greeting = "Hey dear %s, your grade for %s is as   | 18         self.total = total_                             | 45                                     self.grade, self.  |~
+    follows:" % (st.get_firstname(), self.task)                    | 19         self.n_items = len(items_)                      |    breakdown,                                             |~
+ 32             total_info = "Grade total: %d" % sum([int(s[0])    | 20         self.items = items_                             | 46                                     self.comments)     |~
+    for s in st.grades])                                           | 21         self.students = []                              | 47         s += '-----------------------------------\n'   |~
+ 33                                                                | 22                                                         | 48         return s                                       |~
+ 34             detail_info = "Detailed breakdown: "               | 23     def set_total(self, total_):                        | 49                                                        |~
+ 35             for i in xrange(self.n_items):                     | 24         self.total = total_                             | 50 #------------------------------------------------------|~
+ 36                 item, desc = st.grades[i]                      | 25                                                         |    -----------------------                                |~
+ 37                 detail_info += '\n%s (%s/%s)%s' % (self.       | 26     def register_student(self, st):                     | 51 # content                                              |~
+    items[i][0], item, self.items[i][1], '' if desc.strip() == ''  | 27         self.students.append(st)                        | 52 #------------------------------------------------------|~
+    else ': %s' % desc)                                            | 28                                                         |    -----------------------                                |~
+ 38             farewell = "Best,\nXiaochang"                      | <il.py   CWD: /home/vax7/u31/xpeng/grading   Line: 20/101:9| <s.py   CWD: /home/vax7/u31/xpeng/grading   Line: 40/214:9|~
+ 39             message = '%s\n%s\n%s\n\n%s' % (greeting,          |  1 HW2 - linear regression                                 |  1 Xiaochang-Peng xpeng@cs.rochester.edu                  |~
+    total_info, detail_info, farewell)                             |  2 100                                                     |  2 Qiguang-Liu qliu@cs.rochester.edu                      |~
+ 40             print message                                      |  3 Implementation 60                                       |~                                                          |~
+ 41             os.system('echo %s | mutt -s "%s" -- %s' %         |  4 Documentation 30                                        |~                                                          |~
+    (message, self.task, st.email))                                |  5 Code 10                                                 |~                                                          |~
+ 42                                                                |  6                                                         |~                                                          |~
+ 43 def init_emails(email_file):                                   |  7 Xiaochang Peng                                          |~                                                          |~
+ 44     email_dict = {}                                            |  8 50 Good Implementation                                  |~                                                          |~
+ 45     with open(email_file, 'r') as f:                           |  9 30 Nice                                                 |~                                                          |~
+ 46         for line in f:                                         | 10 10                                                      |~                                                          |~
+ 47             if line.strip() != '':                             | 11 You should do                                           |~                                                          |~
+ 48                 fields = line.strip().split()                  |~                                                           |~                                                          |~
+ 49                 person = ' '.join(fields[0].split('-'))        |~                                                           |~                                                          |~
+ 50                 email = fields[1]                              |~                                                           |~                                                          |~
+ 51                 email_dict[person] = email                     |~                                                           |~                                                          |~
+ 52     return email_dict                                          |~                                                           |~                                                          |~
+ 53                                                                |~                                                           |~                                                          |~
+ 54 def main(argv):                                                |~                                                           |~                                                          |~
+ 55     email_file = argv[1]                                       |~                                                           |~                                                          |~
+ 56     email_map = init_emails(email_file)                        |~                                                           |~                                                          |~
+ 57                                                                |~                                                           |~                                                          |~
+ 58     grade_file = argv[2]                                       |~                                                           |~                                                          |~
+ 59     with open(grade_file, 'r') as f:                           |~                                                           |~                                                          |~
+ <ing/mail.py   CWD: /home/vax7/u31/xpeng/grading   Line: 32/101:58  <omments   CWD: /home/vax7/u31/xpeng/grading   Line: 3/11:6  <ersons   CWD: /home/vax7/u31/xpeng/grading   Line: 1/2:33  <  Line: 3/4:1
+"mail.py" 101L, 3450C written
+

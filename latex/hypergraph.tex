@@ -1,0 +1,35 @@
+\documentclass[11pt]{article} 
+\usepackage[upright]{fourier} 
+\usepackage{tikz}
+\usetikzlibrary{arrows,calc}
+
+\begin{document}
+\begin{tikzpicture}[scale=2]
+\node[circle](A){$NPB_{0,1}$} ;
+\node(B) at ($(A)+(2,0)$){$CC_{1,2}$} ; 
+\node(C) at ($(B)+(2,0)$){$P_{1,2}$} ;   
+\node(D) at ($(C)+(2,0)$){$NPB_{2,3}$} ;   
+\node(E) at ($(D)+(2,0)$){$VV_{3,4}$} ;   
+\node(F) at ($(E)+(2,0)$){$AS_{4,5}$} ;   
+\node(G) at ($(F)+(2,0)$){$NPB_{5,6}$} ; 
+\node(Deb) at (5,8){$IP_{0,6}$};
+\node(FF) at ($(F)+(0,4)$){$VBP_{3,6}$} ;  
+\node(BB) at ($(B)+(0,5)$){$NP_{0,3}$} ; 
+\draw[->] (A) to[out=90,in=180] (3,7)--(4,7) to[out=0,in=-90](Deb); 
+\draw[rounded corners=2cm,
+       dashed,->] (FF)to[out=90,in=-60] ($(Deb)+(.5,0)$);
+\draw[dashed,->] (A) to [in =-90,out =90](BB);
+\draw[dashed,->] (BB) to [in =-180,out =90] ++(2,1) to [out=0,in=-70]($(Deb)+(.5,0)$);
+\end{tikzpicture}
+
+\begin{figure}
+    \begin{tikzpicture}
+      \node (label) at (0,0)[circle, draw=black]{
+        \includegraphics[width=\textwidth]{unit-crop.pdf}
+      };
+      \node [draw=red] (A) at (0,0) {1};
+      \node [draw=red] (B) at (2,0) {2};
+    \end{tikzpicture}
+    \caption{Simplest picture.}
+\end{figure}
+\end{document}

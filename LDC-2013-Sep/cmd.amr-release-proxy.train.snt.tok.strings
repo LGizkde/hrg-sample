@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cat ../data/LDC-2013-Sep/amr-release-proxy.train.snt.tok | sed 's/ //g' > amr-release-proxy.train.snt.tok.strings

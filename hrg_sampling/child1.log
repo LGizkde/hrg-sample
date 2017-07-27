@@ -1,0 +1,942 @@
+The likelihood from last iteration is -115538.815307
+
+iteration 1
+The likelihood for current iteration is -108266.991106
+iteration time: 122.720743895 sec
+-2290 rules, 2939 rule types
+memory: 15456722944.0
+resident memory: 15262851072.0
+unvisited nodes happen in sent 810
+The likelihood from last iteration is -100308.554218
+
+iteration 2
+The likelihood for current iteration is -95672.2759136
+iteration time: 118.038844824 sec
+-1426 rules, 2702 rule types
+memory: 15460995072.0
+resident memory: 15263096832.0
+unvisited nodes happen in sent 658
+No mapping for sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 810
+No mapping for sent 810
+The likelihood from last iteration is -91403.0601484
+
+iteration 3
+The likelihood for current iteration is -88836.94726
+iteration time: 110.349720001 sec
+-856 rules, 2197 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 810
+No mapping for sent 810
+unvisited nodes happen in sent 989
+No mapping for sent 989
+The likelihood from last iteration is -86039.8526599
+
+iteration 4
+The likelihood for current iteration is -84410.0030548
+iteration time: 123.715247154 sec
+-521 rules, 1925 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 989
+No mapping for sent 989
+The likelihood from last iteration is -82609.8252468
+
+iteration 5
+The likelihood for current iteration is -81677.2904545
+iteration time: 104.00002718 sec
+-424 rules, 1769 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -80655.6930344
+
+iteration 6
+The likelihood for current iteration is -79884.7181948
+iteration time: 100.90625906 sec
+-285 rules, 1645 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 989
+No mapping for sent 989
+The likelihood from last iteration is -79164.5218983
+
+iteration 7
+The likelihood for current iteration is -78867.2628529
+iteration time: 99.110106945 sec
+-200 rules, 1569 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 870
+The likelihood from last iteration is -78451.9762471
+
+iteration 8
+The likelihood for current iteration is -78101.3896054
+iteration time: 97.3348891735 sec
+-100 rules, 1556 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -77852.9922563
+
+iteration 9
+The likelihood for current iteration is -77662.1862186
+iteration time: 96.8218801022 sec
+-58 rules, 1478 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 554
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -77398.7925105
+
+iteration 10
+The likelihood for current iteration is -77333.7550981
+iteration time: 96.4350948334 sec
+-81 rules, 1453 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -77200.2174415
+
+iteration 11
+The likelihood for current iteration is -77064.9197407
+iteration time: 96.0046110153 sec
+-62 rules, 1402 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -76907.6120043
+
+iteration 12
+The likelihood for current iteration is -76912.7330933
+iteration time: 116.337774038 sec
+26 rules, 1348 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -76832.7255802
+
+iteration 13
+The likelihood for current iteration is -76705.2619522
+iteration time: 96.0014019012 sec
+-39 rules, 1333 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -76648.433857
+
+iteration 14
+The likelihood for current iteration is -76581.6460931
+iteration time: 95.5304009914 sec
+-5 rules, 1329 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -76596.3678436
+
+iteration 15
+The likelihood for current iteration is -76479.0169328
+iteration time: 95.5488469601 sec
+-44 rules, 1387 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 989
+No mapping for sent 989
+The likelihood from last iteration is -76426.9227221
+
+iteration 16
+The likelihood for current iteration is -76442.1186346
+iteration time: 95.5641028881 sec
+-10 rules, 1323 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -76399.3733175
+
+iteration 17
+The likelihood for current iteration is -76439.0645604
+iteration time: 95.1991078854 sec
+-15 rules, 1396 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -76384.7406554
+
+iteration 18
+The likelihood for current iteration is -76316.900243
+iteration time: 95.7896299362 sec
+-3 rules, 1405 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+The likelihood from last iteration is -76349.5504281
+
+iteration 19
+The likelihood for current iteration is -76332.537861
+iteration time: 95.319963932 sec
+8 rules, 1362 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+The likelihood from last iteration is -76277.943443
+
+iteration 20
+The likelihood for current iteration is -76176.3351093
+iteration time: 94.7800838947 sec
+-5 rules, 1384 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -76205.5807637
+
+iteration 21
+The likelihood for current iteration is -76221.8105283
+iteration time: 115.882963181 sec
+-35 rules, 1353 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -76210.5657866
+
+iteration 22
+The likelihood for current iteration is -76165.1352222
+iteration time: 94.9997210503 sec
+6 rules, 1334 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -76096.4556519
+
+iteration 23
+The likelihood for current iteration is -76122.9149162
+iteration time: 94.9741060734 sec
+19 rules, 1345 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -76002.1055579
+
+iteration 24
+The likelihood for current iteration is -76083.540748
+iteration time: 95.3605370522 sec
+-1 rules, 1384 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -76158.7971287
+
+iteration 25
+The likelihood for current iteration is -76164.8455522
+iteration time: 95.6857759953 sec
+-32 rules, 1418 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+The likelihood from last iteration is -76082.7116537
+
+iteration 26
+The likelihood for current iteration is -76072.2011047
+iteration time: 94.8362090588 sec
+-2 rules, 1335 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+unvisited nodes happen in sent 880
+No mapping for sent 880
+The likelihood from last iteration is -76035.5788848
+
+iteration 27
+The likelihood for current iteration is -76027.2609761
+iteration time: 94.8439559937 sec
+18 rules, 1346 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -75994.9058467
+
+iteration 28
+The likelihood for current iteration is -75964.8967982
+iteration time: 95.3884868622 sec
+-20 rules, 1353 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+The likelihood from last iteration is -75902.3332055
+
+iteration 29
+The likelihood for current iteration is -75900.7404812
+iteration time: 94.8332090378 sec
+-5 rules, 1357 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -75925.6470073
+
+iteration 30
+The likelihood for current iteration is -75893.7644933
+iteration time: 115.267202854 sec
+8 rules, 1299 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 551
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -75888.311716
+
+iteration 31
+The likelihood for current iteration is -75844.182202
+iteration time: 94.2572770119 sec
+-22 rules, 1307 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+The likelihood from last iteration is -75697.2646343
+
+iteration 32
+The likelihood for current iteration is -75713.5626677
+iteration time: 94.6202981472 sec
+4 rules, 1378 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+The likelihood from last iteration is -75693.894259
+
+iteration 33
+The likelihood for current iteration is -75734.0871781
+iteration time: 94.665418148 sec
+12 rules, 1327 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+The likelihood from last iteration is -75706.7677881
+
+iteration 34
+The likelihood for current iteration is -75664.6763859
+iteration time: 94.0873939991 sec
+3 rules, 1331 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+The likelihood from last iteration is -75694.4119635
+
+iteration 35
+The likelihood for current iteration is -75700.9439182
+iteration time: 95.3622012138 sec
+-13 rules, 1282 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+unvisited nodes happen in sent 748
+No mapping for sent 748
+The likelihood from last iteration is -75689.3226873
+
+iteration 36
+The likelihood for current iteration is -75647.6914435
+iteration time: 94.8259451389 sec
+-9 rules, 1277 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+The likelihood from last iteration is -75629.5187065
+
+iteration 37
+The likelihood for current iteration is -75627.0981191
+iteration time: 94.4414010048 sec
+-4 rules, 1255 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -75632.0486539
+
+iteration 38
+The likelihood for current iteration is -75649.0194518
+iteration time: 94.4001951218 sec
+-26 rules, 1318 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 748
+No mapping for sent 748
+unvisited nodes happen in sent 886
+No mapping for sent 886
+The likelihood from last iteration is -75606.3097911
+
+iteration 39
+The likelihood for current iteration is -75631.6936829
+iteration time: 115.005838871 sec
+-9 rules, 1332 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+unvisited nodes happen in sent 748
+No mapping for sent 748
+unvisited nodes happen in sent 886
+No mapping for sent 886
+The likelihood from last iteration is -75562.1176895
+
+iteration 40
+The likelihood for current iteration is -75585.1899493
+iteration time: 93.7135519981 sec
+10 rules, 1362 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 748
+No mapping for sent 748
+unvisited nodes happen in sent 886
+No mapping for sent 886
+The likelihood from last iteration is -75642.1664804
+
+iteration 41
+The likelihood for current iteration is -75650.218667
+iteration time: 94.2526209354 sec
+18 rules, 1314 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -75628.1512663
+
+iteration 42
+The likelihood for current iteration is -75641.0226885
+iteration time: 94.8484990597 sec
+-32 rules, 1409 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+unvisited nodes happen in sent 886
+No mapping for sent 886
+The likelihood from last iteration is -75621.9899721
+
+iteration 43
+The likelihood for current iteration is -75579.291479
+iteration time: 95.1824829578 sec
+28 rules, 1387 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 886
+No mapping for sent 886
+The likelihood from last iteration is -75678.4202962
+
+iteration 44
+The likelihood for current iteration is -75694.2612916
+iteration time: 94.0106539726 sec
+-8 rules, 1321 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -75625.0200846
+
+iteration 45
+The likelihood for current iteration is -75578.5256246
+iteration time: 93.7945380211 sec
+-11 rules, 1364 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -75529.9593977
+
+iteration 46
+The likelihood for current iteration is -75467.6561055
+iteration time: 94.3964009285 sec
+-10 rules, 1263 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 551
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 886
+No mapping for sent 886
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -75482.5335482
+
+iteration 47
+The likelihood for current iteration is -75466.403213
+iteration time: 94.0850529671 sec
+3 rules, 1245 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 551
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 960
+No mapping for sent 960
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -75496.4723255
+
+iteration 48
+The likelihood for current iteration is -75589.269487
+iteration time: 115.077095985 sec
+-9 rules, 1314 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -75560.1116555
+
+iteration 49
+The likelihood for current iteration is -75439.1656602
+iteration time: 94.1585979462 sec
+-7 rules, 1344 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -75510.7987884
+
+iteration 50
+The likelihood for current iteration is -75457.1842623
+iteration time: 94.9578239918 sec
+-7 rules, 1263 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 886
+No mapping for sent 886
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -75441.8144888
+
+iteration 51
+The likelihood for current iteration is -75493.1258949
+iteration time: 94.6919050217 sec
+36 rules, 1258 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 886
+No mapping for sent 886
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -75496.1649983
+
+iteration 52
+The likelihood for current iteration is -75528.1625446
+iteration time: 94.6659021378 sec
+-17 rules, 1350 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -75406.1066059
+
+iteration 53
+The likelihood for current iteration is -75368.5049248
+iteration time: 94.4265589714 sec
+-4 rules, 1372 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 886
+No mapping for sent 886
+unvisited nodes happen in sent 960
+No mapping for sent 960
+The likelihood from last iteration is -75456.5646738
+
+iteration 54
+The likelihood for current iteration is -75469.5069517
+iteration time: 94.6379220486 sec
+5 rules, 1395 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 886
+No mapping for sent 886
+unvisited nodes happen in sent 960
+No mapping for sent 960
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -75499.2307127
+
+iteration 55
+The likelihood for current iteration is -75524.2083514
+iteration time: 94.5274999142 sec
+-18 rules, 1355 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 713
+unvisited nodes happen in sent 886
+No mapping for sent 886
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -75545.4310343
+
+iteration 56
+The likelihood for current iteration is -75477.0987893
+iteration time: 93.8516180515 sec
+-4 rules, 1391 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+No mapping for sent 665
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -75446.2656884
+
+iteration 57
+The likelihood for current iteration is -75333.6802047
+iteration time: 115.01974988 sec
+-16 rules, 1301 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+unvisited nodes happen in sent 960
+No mapping for sent 960
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -75302.9080812
+
+iteration 58
+The likelihood for current iteration is -75405.9456047
+iteration time: 93.6084530354 sec
+35 rules, 1262 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 804
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -75418.8046381
+
+iteration 59
+The likelihood for current iteration is -75295.4878584
+iteration time: 94.287637949 sec
+-40 rules, 1334 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 886
+No mapping for sent 886
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -75279.4909614
+
+iteration 60
+The likelihood for current iteration is -75330.7298076
+iteration time: 94.0992488861 sec
+1 rules, 1264 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 804
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -75324.8221853
+
+iteration 61
+The likelihood for current iteration is -75289.9917814
+iteration time: 94.2128150463 sec
+9 rules, 1297 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 886
+No mapping for sent 886
+The likelihood from last iteration is -75384.0071669
+
+iteration 62
+The likelihood for current iteration is -75385.948444
+iteration time: 93.6437170506 sec
+30 rules, 1329 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 886
+No mapping for sent 886
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -75386.0192421
+
+iteration 63
+The likelihood for current iteration is -75222.1485061
+iteration time: 94.6881818771 sec
+-44 rules, 1259 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+unvisited nodes happen in sent 748
+No mapping for sent 748
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -75312.1717882
+
+iteration 64
+The likelihood for current iteration is -75377.0121396
+iteration time: 94.3438100815 sec
+26 rules, 1237 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 551
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -75299.1534523
+
+iteration 65
+The likelihood for current iteration is -75219.5583518
+iteration time: 94.0755999088 sec
+-31 rules, 1314 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 748
+No mapping for sent 748
+The likelihood from last iteration is -75160.7574892
+
+iteration 66
+The likelihood for current iteration is -75177.7297532
+iteration time: 94.423830986 sec
+1 rules, 1241 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 748
+No mapping for sent 748
+unvisited nodes happen in sent 870
+The likelihood from last iteration is -75166.9153043
+
+iteration 67
+The likelihood for current iteration is -75216.1146709
+iteration time: 115.150640011 sec
+35 rules, 1235 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 748
+No mapping for sent 748
+unvisited nodes happen in sent 870
+The likelihood from last iteration is -75210.3978
+
+iteration 68
+The likelihood for current iteration is -75236.005857
+iteration time: 94.1459150314 sec
+-11 rules, 1223 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 870
+unvisited nodes happen in sent 989
+The likelihood from last iteration is -75239.9882933
+
+iteration 69
+The likelihood for current iteration is -75278.0339653
+iteration time: 93.8459999561 sec
+12 rules, 1334 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -75257.0859393
+
+iteration 70
+The likelihood for current iteration is -75205.81378
+iteration time: 94.237445116 sec
+-30 rules, 1248 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 886
+No mapping for sent 886
+The likelihood from last iteration is -75183.2710282
+
+iteration 71
+The likelihood for current iteration is -75113.9963086
+iteration time: 93.5882978439 sec
+-2 rules, 1280 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 804
+unvisited nodes happen in sent 886
+No mapping for sent 886
+unvisited nodes happen in sent 960
+No mapping for sent 960
+The likelihood from last iteration is -75112.0864793
+
+iteration 72
+The likelihood for current iteration is -75270.4932914
+iteration time: 93.9512569904 sec
+42 rules, 1308 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 804
+unvisited nodes happen in sent 886
+No mapping for sent 886
+unvisited nodes happen in sent 960
+No mapping for sent 960
+The likelihood from last iteration is -75280.6487199
+
+iteration 73
+The likelihood for current iteration is -75181.2875789
+iteration time: 94.3182618618 sec
+-36 rules, 1388 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 665
+The likelihood from last iteration is -75162.867705
+
+iteration 74
+The likelihood for current iteration is -75132.2889481
+iteration time: 93.648113966 sec
+-6 rules, 1328 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+unvisited nodes happen in sent 870
+The likelihood from last iteration is -75144.9143101
+
+iteration 75
+The likelihood for current iteration is -75161.6945771
+iteration time: 93.6283619404 sec
+5 rules, 1308 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+unvisited nodes happen in sent 886
+No mapping for sent 886
+The likelihood from last iteration is -75199.0247593
+
+iteration 76
+The likelihood for current iteration is -75218.8016293
+iteration time: 114.604989767 sec
+-14 rules, 1258 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 551
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+unvisited nodes happen in sent 870
+The likelihood from last iteration is -75205.0912744
+
+iteration 77
+The likelihood for current iteration is -75219.5985848
+iteration time: 93.7899060249 sec
+29 rules, 1285 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+The likelihood from last iteration is -75099.1196536
+
+iteration 78
+The likelihood for current iteration is -75127.0026791
+iteration time: 93.9571740627 sec
+-4 rules, 1288 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 551
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+unvisited nodes happen in sent 886
+No mapping for sent 886
+The likelihood from last iteration is -75182.753602
+
+iteration 79
+The likelihood for current iteration is -75136.252485
+iteration time: 93.9019498825 sec
+-15 rules, 1332 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 658
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+unvisited nodes happen in sent 886
+No mapping for sent 886
+unvisited nodes happen in sent 960
+No mapping for sent 960
+The likelihood from last iteration is -75165.7459128
+
+iteration 80
+The likelihood for current iteration is -75225.1701707
+iteration time: 94.0721487999 sec
+4 rules, 1301 rule types
+memory: 15461740544.0
+resident memory: 15263842304.0
+unvisited nodes happen in sent 665
+unvisited nodes happen in sent 713
+unvisited nodes happen in sent 886
+No mapping for sent 886
+unvisited nodes happen in sent 960
+No mapping for sent 960
+Finished job

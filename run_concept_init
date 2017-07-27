@@ -1,0 +1,2 @@
+#python concept_init.py dev.concept.amr dev.snt dev.concept.alignment dev.concept.gram dev.concept.unaligned
+python concept_init.py test.concept.amr test.snt test.concept.alignment test.concept.gram test.concept.unaligned

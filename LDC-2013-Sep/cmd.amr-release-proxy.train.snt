@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cat amr-release-proxy.train | grep '::snt ' | sed 's/^# ::snt //' > amr-release-proxy.train.snt
+cat amr-release-proxy.dev | grep '::snt ' | sed 's/^# ::snt //' > amr-release-proxy.dev.snt
+cat amr-release-proxy.test | grep '::snt ' | sed 's/^# ::snt //' > amr-release-proxy.test.snt

@@ -1,0 +1,387 @@
+S
+0.9
+  NN
+  0.02
+    None
+  VP
+  0.5
+    VP
+    0.9
+      VB
+      0.01
+        None
+      NP
+      0.7
+        DT
+        0.5
+          None
+        NN
+        0.05
+          None
+    PP
+    1.0
+      IN
+      0.25
+        None
+      NP
+      0.7
+        DT
+        0.5
+          None
+        NN
+        0.001
+          None
+
+1.2403125e-10
+S
+0.9
+  NN
+  0.02
+    None
+  VP
+  0.5
+    VB
+    0.01
+      None
+    NP
+    0.3
+      NP
+      0.7
+        DT
+        0.5
+          None
+        NN
+        0.05
+          None
+      PP
+      1.0
+        IN
+        0.25
+          None
+        NP
+        0.7
+          DT
+          0.5
+            None
+          NN
+          0.001
+            None
+
+4.134375e-11
+.digraph hypergraph {
+rankdir=BT
+n20 [label="20: telescope\nI: 1\nO: 1.65375e-10\nI*O: 1.65375e-10\nIexp: 0\nOexp: 2.149875e-09\nIexp*O+Oexp*I: 2.149875e-09" style="filled" color=""];
+n19 [label="19: a\nI: 1\nO: 1.65375e-10\nI*O: 1.65375e-10\nIexp: 0\nOexp: 2.149875e-09\nIexp*O+Oexp*I: 2.149875e-09" style="filled" color=""];
+n18 [label="18: girl\nI: 1\nO: 1.65375e-10\nI*O: 1.65375e-10\nIexp: 0\nOexp: 2.149875e-09\nIexp*O+Oexp*I: 2.149875e-09" style="filled" color=""];
+n17 [label="17: a\nI: 1\nO: 1.65375e-10\nI*O: 1.65375e-10\nIexp: 0\nOexp: 2.149875e-09\nIexp*O+Oexp*I: 2.149875e-09" style="filled" color=""];
+n16 [label="16: NN\nI: 0.001\nO: 1.65375e-07\nI*O: 1.65375e-10\nIexp: 0.001\nOexp: 1.9845e-06\nIexp*O+Oexp*I: 2.149875e-09" style="filled" color=""];
+e16_0 [shape="point"]
+e16_0 -> n16 [label="0.001\nP(e): 1.65375e-10\nE(e): 2.149875e-09"]
+n20 -> e16_0 [dir="none"]
+n15 [label="15: DT\nI: 0.5\nO: 3.3075e-10\nI*O: 1.65375e-10\nIexp: 0.5\nOexp: 3.969e-09\nIexp*O+Oexp*I: 2.149875e-09" style="filled" color=""];
+e15_0 [shape="point"]
+e15_0 -> n15 [label="0.5\nP(e): 1.65375e-10\nE(e): 2.149875e-09"]
+n19 -> e15_0 [dir="none"]
+n14 [label="14: with\nI: 1\nO: 1.65375e-10\nI*O: 1.65375e-10\nIexp: 0\nOexp: 2.149875e-09\nIexp*O+Oexp*I: 2.149875e-09" style="filled" color=""];
+n13 [label="13: NN\nI: 0.05\nO: 3.3075e-09\nI*O: 1.65375e-10\nIexp: 0.05\nOexp: 3.969e-08\nIexp*O+Oexp*I: 2.149875e-09" style="filled" color=""];
+e13_0 [shape="point"]
+e13_0 -> n13 [label="0.05\nP(e): 1.65375e-10\nE(e): 2.149875e-09"]
+n18 -> e13_0 [dir="none"]
+n12 [label="12: DT\nI: 0.5\nO: 3.3075e-10\nI*O: 1.65375e-10\nIexp: 0.5\nOexp: 3.969e-09\nIexp*O+Oexp*I: 2.149875e-09" style="filled" color=""];
+e12_0 [shape="point"]
+e12_0 -> n12 [label="0.5\nP(e): 1.65375e-10\nE(e): 2.149875e-09"]
+n17 -> e12_0 [dir="none"]
+n11 [label="11: saw\nI: 1\nO: 1.65375e-10\nI*O: 1.65375e-10\nIexp: 0\nOexp: 2.149875e-09\nIexp*O+Oexp*I: 2.149875e-09" style="filled" color=""];
+n10 [label="10: NP\nI: 0.00035\nO: 4.725e-07\nI*O: 1.65375e-10\nIexp: 0.00105\nOexp: 4.725e-06\nIexp*O+Oexp*I: 2.149875e-09" style="filled" color=""];
+e10_0 [shape="point"]
+e10_0 -> n10 [label="0.7\nP(e): 1.65375e-10\nE(e): 2.149875e-09"]
+n15 -> e10_0 [dir="none"]
+n16 -> e10_0 [dir="none"]
+n9 [label="9: IN\nI: 0.25\nO: 6.615e-10\nI*O: 1.65375e-10\nIexp: 0.25\nOexp: 7.938e-09\nIexp*O+Oexp*I: 2.149875e-09" style="filled" color=""];
+e9_0 [shape="point"]
+e9_0 -> n9 [label="0.25\nP(e): 1.65375e-10\nE(e): 2.149875e-09"]
+n14 -> e9_0 [dir="none"]
+n8 [label="8: NP\nI: 0.0175\nO: 9.45e-09\nI*O: 1.65375e-10\nIexp: 0.0525\nOexp: 9.45e-08\nIexp*O+Oexp*I: 2.149875e-09" style="filled" color=""];
+e8_0 [shape="point"]
+e8_0 -> n8 [label="0.7\nP(e): 1.65375e-10\nE(e): 2.149875e-09"]
+n12 -> e8_0 [dir="none"]
+n13 -> e8_0 [dir="none"]
+n7 [label="7: VB\nI: 0.01\nO: 1.65375e-08\nI*O: 1.65375e-10\nIexp: 0.01\nOexp: 1.9845e-07\nIexp*O+Oexp*I: 2.149875e-09" style="filled" color=""];
+e7_0 [shape="point"]
+e7_0 -> n7 [label="0.01\nP(e): 1.65375e-10\nE(e): 2.149875e-09"]
+n11 -> e7_0 [dir="none"]
+n6 [label="6: PP\nI: 8.75e-05\nO: 1.89e-06\nI*O: 1.65375e-10\nIexp: 0.0004375\nOexp: 1.512e-05\nIexp*O+Oexp*I: 2.149875e-09" style="filled" color=""];
+e6_0 [shape="point"]
+e6_0 -> n6 [label="1.0\nP(e): 1.65375e-10\nE(e): 2.149875e-09"]
+n9 -> e6_0 [dir="none"]
+n10 -> e6_0 [dir="none"]
+n5 [label="5: VP\nI: 0.0001575\nO: 7.875e-07\nI*O: 1.2403125e-10\nIexp: 0.0007875\nOexp: 6.3e-06\nIexp*O+Oexp*I: 1.61240625e-09" style="filled" color=""];
+e5_0 [shape="point"]
+e5_0 -> n5 [label="0.9\nP(e): 1.2403125e-10\nE(e): 1.61240625e-09"]
+n7 -> e5_0 [dir="none"]
+n8 -> e5_0 [dir="none"]
+n4 [label="4: NP\nI: 4.59375e-07\nO: 9e-05\nI*O: 4.134375e-11\nIexp: 4.134375e-06\nOexp: 0.00036\nIexp*O+Oexp*I: 5.3746875e-10" style="filled" color=""];
+e4_0 [shape="point"]
+e4_0 -> n4 [label="0.3\nP(e): 4.134375e-11\nE(e): 5.3746875e-10"]
+n8 -> e4_0 [dir="none"]
+n6 -> e4_0 [dir="none"]
+n3 [label="3: John\nI: 1\nO: 1.65375e-10\nI*O: 1.65375e-10\nIexp: 0\nOexp: 2.149875e-09\nIexp*O+Oexp*I: 2.149875e-09" style="filled" color=""];
+n2 [label="2: VP\nI: 9.1875e-09\nO: 0.018\nI*O: 1.65375e-10\nIexp: 1.010625e-07\nOexp: 0.036\nIexp*O+Oexp*I: 2.149875e-09" style="filled" color=""];
+e2_0 [shape="point"]
+e2_0 -> n2 [label="0.5\nP(e): 4.134375e-11\nE(e): 5.3746875e-10"]
+n7 -> e2_0 [dir="none"]
+n4 -> e2_0 [dir="none"]
+e2_1 [shape="point"]
+e2_1 -> n2 [label="0.5\nP(e): 1.2403125e-10\nE(e): 1.61240625e-09"]
+n5 -> e2_1 [dir="none"]
+n6 -> e2_1 [dir="none"]
+n1 [label="1: NN\nI: 0.02\nO: 8.26875e-09\nI*O: 1.65375e-10\nIexp: 0.02\nOexp: 9.9225e-08\nIexp*O+Oexp*I: 2.149875e-09" style="filled" color=""];
+e1_0 [shape="point"]
+e1_0 -> n1 [label="0.02\nP(e): 1.65375e-10\nE(e): 2.149875e-09"]
+n3 -> e1_0 [dir="none"]
+n0 [label="0: S\nI: 1.65375e-10\nO: 1\nI*O: 1.65375e-10\nIexp: 2.149875e-09\nOexp: 0\nIexp*O+Oexp*I: 2.149875e-09" style="filled" color=""];
+e0_0 [shape="point"]
+e0_0 -> n0 [label="0.9\nP(e): 1.65375e-10\nE(e): 2.149875e-09"]
+n1 -> e0_0 [dir="none"]
+n2 -> e0_0 [dir="none"]
+}
+
+.digraph hypergraph {
+rankdir=BT
+n20 [label="20: telescope\nI: 0\nO: -22.5228054935\nI*O: -22.5228054935\nIexp: -100\nOexp: -18.957856136\nIexp*O+Oexp*I: -18.957856136" style="filled" color=""];
+n19 [label="19: a\nI: 0\nO: -22.5228054935\nI*O: -22.5228054935\nIexp: -100\nOexp: -18.957856136\nIexp*O+Oexp*I: -18.957856136" style="filled" color=""];
+n18 [label="18: girl\nI: 0\nO: -22.5228054935\nI*O: -22.5228054935\nIexp: -100\nOexp: -18.957856136\nIexp*O+Oexp*I: -18.957856136" style="filled" color=""];
+n17 [label="17: a\nI: 0\nO: -22.5228054935\nI*O: -22.5228054935\nIexp: -100\nOexp: -18.957856136\nIexp*O+Oexp*I: -18.957856136" style="filled" color=""];
+n16 [label="16: NN\nI: -6.90775527898\nO: -15.6150502145\nI*O: -22.5228054935\nIexp: -5.90775527898\nOexp: -12.1301435647\nIexp*O+Oexp*I: -18.957856136" style="filled" color=""];
+e16_0 [shape="point"]
+e16_0 -> n16 [label="-6.90775527898\nP(e): -22.5228054935\nE(e): -18.957856136"]
+n20 -> e16_0 [dir="none"]
+n15 [label="15: DT\nI: -0.69314718056\nO: -21.8296583129\nI*O: -22.5228054935\nIexp: 0.30685281944\nOexp: -18.3447516631\nIexp*O+Oexp*I: -18.957856136" style="filled" color=""];
+e15_0 [shape="point"]
+e15_0 -> n15 [label="-0.69314718056\nP(e): -22.5228054935\nE(e): -18.957856136"]
+n19 -> e15_0 [dir="none"]
+n14 [label="14: with\nI: 0\nO: -22.5228054935\nI*O: -22.5228054935\nIexp: -100\nOexp: -18.957856136\nIexp*O+Oexp*I: -18.957856136" style="filled" color=""];
+n13 [label="13: NN\nI: -2.99573227355\nO: -19.5270732199\nI*O: -22.5228054935\nIexp: -1.99573227355\nOexp: -16.0421665702\nIexp*O+Oexp*I: -18.957856136" style="filled" color=""];
+e13_0 [shape="point"]
+e13_0 -> n13 [label="-2.99573227355\nP(e): -22.5228054935\nE(e): -18.957856136"]
+n18 -> e13_0 [dir="none"]
+n12 [label="12: DT\nI: -0.69314718056\nO: -21.8296583129\nI*O: -22.5228054935\nIexp: 0.30685281944\nOexp: -18.3447516631\nIexp*O+Oexp*I: -18.957856136" style="filled" color=""];
+e12_0 [shape="point"]
+e12_0 -> n12 [label="-0.69314718056\nP(e): -22.5228054935\nE(e): -18.957856136"]
+n17 -> e12_0 [dir="none"]
+n11 [label="11: saw\nI: 0\nO: -22.5228054935\nI*O: -22.5228054935\nIexp: -100\nOexp: -18.957856136\nIexp*O+Oexp*I: -18.957856136" style="filled" color=""];
+n10 [label="10: NP\nI: -7.95757740348\nO: -14.56522809\nI*O: -22.5228054935\nIexp: -5.85896511481\nOexp: -11.262642997\nIexp*O+Oexp*I: -18.957856136" style="filled" color=""];
+e10_0 [shape="point"]
+e10_0 -> n10 [label="-0.356674943939\nP(e): -22.5228054935\nE(e): -18.957856136"]
+n15 -> e10_0 [dir="none"]
+n16 -> e10_0 [dir="none"]
+n9 [label="9: IN\nI: -1.38629436112\nO: -21.1365111324\nI*O: -22.5228054935\nIexp: -0.38629436112\nOexp: -17.6516044826\nIexp*O+Oexp*I: -18.957856136" style="filled" color=""];
+e9_0 [shape="point"]
+e9_0 -> n9 [label="-1.38629436112\nP(e): -22.5228054935\nE(e): -18.957856136"]
+n14 -> e9_0 [dir="none"]
+n8 [label="8: NP\nI: -4.04555439805\nO: -18.4772510954\nI*O: -22.5228054935\nIexp: -1.94694210938\nOexp: -15.1746660024\nIexp*O+Oexp*I: -18.957856136" style="filled" color=""];
+e8_0 [shape="point"]
+e8_0 -> n8 [label="-0.356674943939\nP(e): -22.5228054935\nE(e): -18.957856136"]
+n12 -> e8_0 [dir="none"]
+n13 -> e8_0 [dir="none"]
+n7 [label="7: VB\nI: -4.60517018599\nO: -17.9176353075\nI*O: -22.5228054935\nIexp: -3.60517018599\nOexp: -14.4327286577\nIexp*O+Oexp*I: -18.957856136" style="filled" color=""];
+e7_0 [shape="point"]
+e7_0 -> n7 [label="-4.60517018599\nP(e): -22.5228054935\nE(e): -18.957856136"]
+n11 -> e7_0 [dir="none"]
+n6 [label="6: PP\nI: -9.3438717646\nO: -13.1789337289\nI*O: -22.5228054935\nIexp: -6.73443385217\nOexp: -10.0994921872\nIexp*O+Oexp*I: -18.957856136" style="filled" color=""];
+e6_0 [shape="point"]
+e6_0 -> n6 [label="0.0\nP(e): -22.5228054935\nE(e): -18.957856136"]
+n9 -> e6_0 [dir="none"]
+n10 -> e6_0 [dir="none"]
+n5 [label="5: VP\nI: -8.7560850997\nO: -14.0544024662\nI*O: -22.8104875659\nIexp: -6.14664718726\nOexp: -10.9749609246\nIexp*O+Oexp*I: -19.2455382085" style="filled" color=""];
+e5_0 [shape="point"]
+e5_0 -> n5 [label="-0.105360515658\nP(e): -22.8104875659\nE(e): -19.2455382085"]
+n7 -> e5_0 [dir="none"]
+n8 -> e5_0 [dir="none"]
+n4 [label="4: NP\nI: -14.593398967\nO: -9.31570088763\nI*O: -23.9090998546\nIexp: -11.3961743896\nOexp: -6.92940652651\nIexp*O+Oexp*I: -20.3441504972" style="filled" color=""];
+e4_0 [shape="point"]
+e4_0 -> n4 [label="-1.20397280433\nP(e): -23.9090998546\nE(e): -20.3441504972"]
+n8 -> e4_0 [dir="none"]
+n6 -> e4_0 [dir="none"]
+n3 [label="3: John\nI: 0\nO: -22.5228054935\nI*O: -22.5228054935\nIexp: -100\nOexp: -18.957856136\nIexp*O+Oexp*I: -18.957856136" style="filled" color=""];
+n2 [label="2: VP\nI: -18.5054219724\nO: -4.01738352109\nI*O: -22.5228054935\nIexp: -15.1075266996\nOexp: -2.32423634053\nIexp*O+Oexp*I: -18.957856136" style="filled" color=""];
+e2_0 [shape="point"]
+e2_0 -> n2 [label="-0.69314718056\nP(e): -23.9090998546\nE(e): -20.3441504972"]
+n7 -> e2_0 [dir="none"]
+n4 -> e2_0 [dir="none"]
+e2_1 [shape="point"]
+e2_1 -> n2 [label="-0.69314718056\nP(e): -22.8104875659\nE(e): -19.2455382085"]
+n5 -> e2_1 [dir="none"]
+n6 -> e2_1 [dir="none"]
+n1 [label="1: NN\nI: -3.91202300543\nO: -18.6107824881\nI*O: -22.5228054935\nIexp: -2.91202300543\nOexp: -15.1258758383\nIexp*O+Oexp*I: -18.957856136" style="filled" color=""];
+e1_0 [shape="point"]
+e1_0 -> n1 [label="-3.91202300543\nP(e): -22.5228054935\nE(e): -18.957856136"]
+n3 -> e1_0 [dir="none"]
+n0 [label="0: S\nI: -22.5228054935\nO: 0\nI*O: -22.5228054935\nIexp: -18.957856136\nOexp: -100\nIexp*O+Oexp*I: -18.957856136" style="filled" color=""];
+e0_0 [shape="point"]
+e0_0 -> n0 [label="-0.105360515658\nP(e): -22.5228054935\nE(e): -18.957856136"]
+n1 -> e0_0 [dir="none"]
+n2 -> e0_0 [dir="none"]
+}
+
+.digraph hypergraph {
+rankdir=BT
+n20 [label="20: telescope\nI: 1\nO: 1.65375e-10\nI*O: 1.65375e-10" style="filled" color=""];
+n19 [label="19: a\nI: 1\nO: 1.65375e-10\nI*O: 1.65375e-10" style="filled" color=""];
+n18 [label="18: girl\nI: 1\nO: 1.65375e-10\nI*O: 1.65375e-10" style="filled" color=""];
+n17 [label="17: a\nI: 1\nO: 1.65375e-10\nI*O: 1.65375e-10" style="filled" color=""];
+n16 [label="16: NN\nI: 0.001\nO: 1.65375e-07\nI*O: 1.65375e-10" style="filled" color=""];
+e16_0 [shape="point"]
+e16_0 -> n16 [label="0.001\nP(e): 1.65375e-10"]
+n20 -> e16_0 [dir="none"]
+n15 [label="15: DT\nI: 0.5\nO: 3.3075e-10\nI*O: 1.65375e-10" style="filled" color=""];
+e15_0 [shape="point"]
+e15_0 -> n15 [label="0.5\nP(e): 1.65375e-10"]
+n19 -> e15_0 [dir="none"]
+n14 [label="14: with\nI: 1\nO: 1.65375e-10\nI*O: 1.65375e-10" style="filled" color=""];
+n13 [label="13: NN\nI: 0.05\nO: 3.3075e-09\nI*O: 1.65375e-10" style="filled" color=""];
+e13_0 [shape="point"]
+e13_0 -> n13 [label="0.05\nP(e): 1.65375e-10"]
+n18 -> e13_0 [dir="none"]
+n12 [label="12: DT\nI: 0.5\nO: 3.3075e-10\nI*O: 1.65375e-10" style="filled" color=""];
+e12_0 [shape="point"]
+e12_0 -> n12 [label="0.5\nP(e): 1.65375e-10"]
+n17 -> e12_0 [dir="none"]
+n11 [label="11: saw\nI: 1\nO: 1.65375e-10\nI*O: 1.65375e-10" style="filled" color=""];
+n10 [label="10: NP\nI: 0.00035\nO: 4.725e-07\nI*O: 1.65375e-10" style="filled" color=""];
+e10_0 [shape="point"]
+e10_0 -> n10 [label="0.7\nP(e): 1.65375e-10"]
+n15 -> e10_0 [dir="none"]
+n16 -> e10_0 [dir="none"]
+n9 [label="9: IN\nI: 0.25\nO: 6.615e-10\nI*O: 1.65375e-10" style="filled" color=""];
+e9_0 [shape="point"]
+e9_0 -> n9 [label="0.25\nP(e): 1.65375e-10"]
+n14 -> e9_0 [dir="none"]
+n8 [label="8: NP\nI: 0.0175\nO: 9.45e-09\nI*O: 1.65375e-10" style="filled" color=""];
+e8_0 [shape="point"]
+e8_0 -> n8 [label="0.7\nP(e): 1.65375e-10"]
+n12 -> e8_0 [dir="none"]
+n13 -> e8_0 [dir="none"]
+n7 [label="7: VB\nI: 0.01\nO: 1.65375e-08\nI*O: 1.65375e-10" style="filled" color=""];
+e7_0 [shape="point"]
+e7_0 -> n7 [label="0.01\nP(e): 1.65375e-10"]
+n11 -> e7_0 [dir="none"]
+n6 [label="6: PP\nI: 8.75e-05\nO: 1.89e-06\nI*O: 1.65375e-10" style="filled" color=""];
+e6_0 [shape="point"]
+e6_0 -> n6 [label="1.0\nP(e): 1.65375e-10"]
+n9 -> e6_0 [dir="none"]
+n10 -> e6_0 [dir="none"]
+n5 [label="5: VP\nI: 0.0001575\nO: 7.875e-07\nI*O: 1.2403125e-10" style="filled" color=""];
+e5_0 [shape="point"]
+e5_0 -> n5 [label="0.9\nP(e): 1.2403125e-10"]
+n7 -> e5_0 [dir="none"]
+n8 -> e5_0 [dir="none"]
+n4 [label="4: NP\nI: 4.59375e-07\nO: 9e-05\nI*O: 4.134375e-11" style="filled" color=""];
+e4_0 [shape="point"]
+e4_0 -> n4 [label="0.3\nP(e): 4.134375e-11"]
+n8 -> e4_0 [dir="none"]
+n6 -> e4_0 [dir="none"]
+n3 [label="3: John\nI: 1\nO: 1.65375e-10\nI*O: 1.65375e-10" style="filled" color=""];
+n2 [label="2: VP\nI: 9.1875e-09\nO: 0.018\nI*O: 1.65375e-10" style="filled" color=""];
+e2_0 [shape="point"]
+e2_0 -> n2 [label="0.5\nP(e): 4.134375e-11"]
+n7 -> e2_0 [dir="none"]
+n4 -> e2_0 [dir="none"]
+e2_1 [shape="point"]
+e2_1 -> n2 [label="0.5\nP(e): 1.2403125e-10"]
+n5 -> e2_1 [dir="none"]
+n6 -> e2_1 [dir="none"]
+n1 [label="1: NN\nI: 0.02\nO: 8.26875e-09\nI*O: 1.65375e-10" style="filled" color=""];
+e1_0 [shape="point"]
+e1_0 -> n1 [label="0.02\nP(e): 1.65375e-10"]
+n3 -> e1_0 [dir="none"]
+n0 [label="0: S\nI: 1.65375e-10\nO: 1\nI*O: 1.65375e-10" style="filled" color=""];
+e0_0 [shape="point"]
+e0_0 -> n0 [label="0.9\nP(e): 1.65375e-10"]
+n1 -> e0_0 [dir="none"]
+n2 -> e0_0 [dir="none"]
+}
+
+.digraph hypergraph {
+rankdir=BT
+n20 [label="20: telescope\nI: 0\nO: -22.5228054935\nI*O: -22.5228054935" style="filled" color=""];
+n19 [label="19: a\nI: 0\nO: -22.5228054935\nI*O: -22.5228054935" style="filled" color=""];
+n18 [label="18: girl\nI: 0\nO: -22.5228054935\nI*O: -22.5228054935" style="filled" color=""];
+n17 [label="17: a\nI: 0\nO: -22.5228054935\nI*O: -22.5228054935" style="filled" color=""];
+n16 [label="16: NN\nI: -6.90775527898\nO: -15.6150502145\nI*O: -22.5228054935" style="filled" color=""];
+e16_0 [shape="point"]
+e16_0 -> n16 [label="-6.90775527898\nP(e): -22.5228054935"]
+n20 -> e16_0 [dir="none"]
+n15 [label="15: DT\nI: -0.69314718056\nO: -21.8296583129\nI*O: -22.5228054935" style="filled" color=""];
+e15_0 [shape="point"]
+e15_0 -> n15 [label="-0.69314718056\nP(e): -22.5228054935"]
+n19 -> e15_0 [dir="none"]
+n14 [label="14: with\nI: 0\nO: -22.5228054935\nI*O: -22.5228054935" style="filled" color=""];
+n13 [label="13: NN\nI: -2.99573227355\nO: -19.5270732199\nI*O: -22.5228054935" style="filled" color=""];
+e13_0 [shape="point"]
+e13_0 -> n13 [label="-2.99573227355\nP(e): -22.5228054935"]
+n18 -> e13_0 [dir="none"]
+n12 [label="12: DT\nI: -0.69314718056\nO: -21.8296583129\nI*O: -22.5228054935" style="filled" color=""];
+e12_0 [shape="point"]
+e12_0 -> n12 [label="-0.69314718056\nP(e): -22.5228054935"]
+n17 -> e12_0 [dir="none"]
+n11 [label="11: saw\nI: 0\nO: -22.5228054935\nI*O: -22.5228054935" style="filled" color=""];
+n10 [label="10: NP\nI: -7.95757740348\nO: -14.56522809\nI*O: -22.5228054935" style="filled" color=""];
+e10_0 [shape="point"]
+e10_0 -> n10 [label="-0.356674943939\nP(e): -22.5228054935"]
+n15 -> e10_0 [dir="none"]
+n16 -> e10_0 [dir="none"]
+n9 [label="9: IN\nI: -1.38629436112\nO: -21.1365111324\nI*O: -22.5228054935" style="filled" color=""];
+e9_0 [shape="point"]
+e9_0 -> n9 [label="-1.38629436112\nP(e): -22.5228054935"]
+n14 -> e9_0 [dir="none"]
+n8 [label="8: NP\nI: -4.04555439805\nO: -18.4772510954\nI*O: -22.5228054935" style="filled" color=""];
+e8_0 [shape="point"]
+e8_0 -> n8 [label="-0.356674943939\nP(e): -22.5228054935"]
+n12 -> e8_0 [dir="none"]
+n13 -> e8_0 [dir="none"]
+n7 [label="7: VB\nI: -4.60517018599\nO: -17.9176353075\nI*O: -22.5228054935" style="filled" color=""];
+e7_0 [shape="point"]
+e7_0 -> n7 [label="-4.60517018599\nP(e): -22.5228054935"]
+n11 -> e7_0 [dir="none"]
+n6 [label="6: PP\nI: -9.3438717646\nO: -13.1789337289\nI*O: -22.5228054935" style="filled" color=""];
+e6_0 [shape="point"]
+e6_0 -> n6 [label="0.0\nP(e): -22.5228054935"]
+n9 -> e6_0 [dir="none"]
+n10 -> e6_0 [dir="none"]
+n5 [label="5: VP\nI: -8.7560850997\nO: -14.0544024662\nI*O: -22.8104875659" style="filled" color=""];
+e5_0 [shape="point"]
+e5_0 -> n5 [label="-0.105360515658\nP(e): -22.8104875659"]
+n7 -> e5_0 [dir="none"]
+n8 -> e5_0 [dir="none"]
+n4 [label="4: NP\nI: -14.593398967\nO: -9.31570088763\nI*O: -23.9090998546" style="filled" color=""];
+e4_0 [shape="point"]
+e4_0 -> n4 [label="-1.20397280433\nP(e): -23.9090998546"]
+n8 -> e4_0 [dir="none"]
+n6 -> e4_0 [dir="none"]
+n3 [label="3: John\nI: 0\nO: -22.5228054935\nI*O: -22.5228054935" style="filled" color=""];
+n2 [label="2: VP\nI: -18.5054219724\nO: -4.01738352109\nI*O: -22.5228054935" style="filled" color=""];
+e2_0 [shape="point"]
+e2_0 -> n2 [label="-0.69314718056\nP(e): -23.9090998546"]
+n7 -> e2_0 [dir="none"]
+n4 -> e2_0 [dir="none"]
+e2_1 [shape="point"]
+e2_1 -> n2 [label="-0.69314718056\nP(e): -22.8104875659"]
+n5 -> e2_1 [dir="none"]
+n6 -> e2_1 [dir="none"]
+n1 [label="1: NN\nI: -3.91202300543\nO: -18.6107824881\nI*O: -22.5228054935" style="filled" color=""];
+e1_0 [shape="point"]
+e1_0 -> n1 [label="-3.91202300543\nP(e): -22.5228054935"]
+n3 -> e1_0 [dir="none"]
+n0 [label="0: S\nI: -22.5228054935\nO: 0\nI*O: -22.5228054935" style="filled" color=""];
+e0_0 [shape="point"]
+e0_0 -> n0 [label="-0.105360515658\nP(e): -22.5228054935"]
+n1 -> e0_0 [dir="none"]
+n2 -> e0_0 [dir="none"]
+}
+
+.
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK

@@ -1,0 +1,12 @@
+# ::id PROXY_AFP_ENG_20070116_0147.4 ::date 2013-06-08T06:43:30 ::snt-type summary ::annotator SDL-AMR-09 ::preferred
+# ::snt An Australian man was charged in Singapore with drug trafficking.
+# ::save-date Thu Jun 13, 2013 ::file PROXY_AFP_ENG_20070116_0147_4.txt
+# ::tok An Australian man was charged in Singapore with drug trafficking .
+# ::alignments 6-7|0.2+0.2.0+0.2.0.0 1-2|0.0.0+0.0.0.0+0.0.0.0.0 4-5|0 9-10|0.1 8-9|0.1.0 2-3|0.0 ::annotator Aligner v.02 ::date 2014-01-06T03:37:52.982
+(c / charge-05
+      :ARG1 (m / man
+            :mod (c3 / country :name (n2 / name :op1 "Australia")))
+      :ARG2 (t / traffic-00
+            :ARG1 (d / drug))
+      :location (c2 / country :name (n / name :op1 "Singapore")))
+

@@ -1,0 +1,3 @@
+#./extract_alignment.py dev.concept.amr ./dev.snt dev.concept.alignment ../run-decoder/train.dict.nostop ../run-decoder/persons.dict ../run-decoder/dev.extracted.gr
+#./extract_alignment.py dev.concept.amr ./dev.snt dev.concept.alignment ../run-decoder/train.uniq.filtered.fulllex ../run-decoder/persons.dict ../run-decoder/dev.extracted.gr
+./extract_alignment.py ./test.concept.amr ./test.snt ./test.concept.alignment ../run-decoder/filtered_max5 ../run-decoder/test.persons-final ../run-decoder/test.extracted.gr

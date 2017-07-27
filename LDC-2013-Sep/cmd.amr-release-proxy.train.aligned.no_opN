@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cat amr-release-proxy.train.aligned | sed 's/:op[^ ]*/:op/g' > amr-release-proxy.train.aligned.no_opN
+cat amr-release-proxy.dev.aligned | sed 's/:op[^ ]*/:op/g' > amr-release-proxy.dev.aligned.no_opN
+cat amr-release-proxy.test.aligned | sed 's/:op[^ ]*/:op/g' > amr-release-proxy.test.aligned.no_opN

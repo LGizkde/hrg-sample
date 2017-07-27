@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cat amr-release-proxy.train | grep '::snt ' | sed 's/^# ::snt //' | ~/supercomputer/tools/cdec-jflanig/corpus/tokenize-anything.sh > amr-release-proxy.train.snt.tok
+cat amr-release-proxy.dev | grep '::snt ' | sed 's/^# ::snt //' | ~/supercomputer/tools/cdec-jflanig/corpus/tokenize-anything.sh > amr-release-proxy.dev.snt.tok  
+cat amr-release-proxy.test | grep '::snt ' | sed 's/^# ::snt //' | ~/supercomputer/tools/cdec-jflanig/corpus/tokenize-anything.sh > amr-release-proxy.test.snt.tok

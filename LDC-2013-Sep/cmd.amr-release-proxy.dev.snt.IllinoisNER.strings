@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cut -f 1 amr-release-proxy.dev.snt.IllinoisNER | nltot | sed 's/\t//g' > amr-release-proxy.dev.snt.IllinoisNER.strings

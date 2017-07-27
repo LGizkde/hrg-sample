@@ -1,0 +1,732 @@
+
+read samples
+initialization. split=False
+347 rules, 197 rule types, loglikelihood: -1347.11866034
+dump trees
+
+iteration 1
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 2.24375987053 sec
+139 rules, 111 rule types, loglikelihood: -877.098156864
+memory: 257953792.0
+resident memory: 58986496.0
+298 sampling operations in total, distribution of number of sites: {1: 275, 2: 11, 3: 6, 4: 1, 5: 2, 6: 1, 10: 1, 16: 1}
+361 sites: 275 singleton sites, 70 (2-10) sites, 16 (>10) sites
+site checks: 4684, success: 63
+
+iteration 2
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 1.18106007576 sec
+93 rules, 91 rule types, loglikelihood: -756.530904515
+memory: 260751360.0
+resident memory: 62320640.0
+335 sampling operations in total, distribution of number of sites: {1: 334, 4: 1}
+338 sites: 334 singleton sites, 4 (2-10) sites, 0 (>10) sites
+site checks: 630, success: 3
+
+iteration 3
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.719655036926 sec
+95 rules, 92 rule types, loglikelihood: -730.977277058
+memory: 260751360.0
+resident memory: 62590976.0
+337 sampling operations in total, distribution of number of sites: {1: 337}
+337 sites: 337 singleton sites, 0 (2-10) sites, 0 (>10) sites
+site checks: 357, success: 0
+
+iteration 4
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.666391849518 sec
+90 rules, 89 rule types, loglikelihood: -741.750532029
+memory: 261275648.0
+resident memory: 63389696.0
+337 sampling operations in total, distribution of number of sites: {1: 337}
+337 sites: 337 singleton sites, 0 (2-10) sites, 0 (>10) sites
+site checks: 354, success: 0
+
+iteration 5
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.569119930267 sec
+100 rules, 99 rule types, loglikelihood: -754.864543143
+memory: 262848512.0
+resident memory: 65007616.0
+337 sampling operations in total, distribution of number of sites: {1: 337}
+337 sites: 337 singleton sites, 0 (2-10) sites, 0 (>10) sites
+site checks: 340, success: 0
+
+iteration 6
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.607488155365 sec
+92 rules, 91 rule types, loglikelihood: -730.07231133
+memory: 266665984.0
+resident memory: 68792320.0
+335 sampling operations in total, distribution of number of sites: {1: 333, 2: 2}
+337 sites: 333 singleton sites, 4 (2-10) sites, 0 (>10) sites
+site checks: 339, success: 2
+
+iteration 7
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.54031920433 sec
+97 rules, 96 rule types, loglikelihood: -738.364342306
+memory: 268771328.0
+resident memory: 70676480.0
+335 sampling operations in total, distribution of number of sites: {1: 333, 2: 2}
+337 sites: 333 singleton sites, 4 (2-10) sites, 0 (>10) sites
+site checks: 346, success: 2
+
+iteration 8
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.525346040726 sec
+85 rules, 84 rule types, loglikelihood: -720.922163238
+memory: 272089088.0
+resident memory: 73920512.0
+335 sampling operations in total, distribution of number of sites: {1: 333, 2: 2}
+337 sites: 333 singleton sites, 4 (2-10) sites, 0 (>10) sites
+site checks: 344, success: 2
+
+iteration 9
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.501897096634 sec
+92 rules, 89 rule types, loglikelihood: -724.012052671
+memory: 274198528.0
+resident memory: 76083200.0
+335 sampling operations in total, distribution of number of sites: {1: 333, 2: 2}
+337 sites: 333 singleton sites, 4 (2-10) sites, 0 (>10) sites
+site checks: 344, success: 2
+
+iteration 10
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.520572900772 sec
+88 rules, 87 rule types, loglikelihood: -729.215132269
+memory: 274722816.0
+resident memory: 76623872.0
+336 sampling operations in total, distribution of number of sites: {1: 335, 2: 1}
+337 sites: 335 singleton sites, 2 (2-10) sites, 0 (>10) sites
+site checks: 350, success: 1
+dump trees
+
+iteration 11
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.518502950668 sec
+94 rules, 92 rule types, loglikelihood: -717.89255355
+memory: 278499328.0
+resident memory: 80678912.0
+337 sampling operations in total, distribution of number of sites: {1: 337}
+337 sites: 337 singleton sites, 0 (2-10) sites, 0 (>10) sites
+site checks: 350, success: 0
+
+iteration 12
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.448596954346 sec
+89 rules, 88 rule types, loglikelihood: -724.393865891
+memory: 281788416.0
+resident memory: 84193280.0
+335 sampling operations in total, distribution of number of sites: {1: 334, 3: 1}
+337 sites: 334 singleton sites, 3 (2-10) sites, 0 (>10) sites
+site checks: 352, success: 2
+
+iteration 13
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.517760038376 sec
+95 rules, 92 rule types, loglikelihood: -724.404297314
+memory: 282599424.0
+resident memory: 85004288.0
+337 sampling operations in total, distribution of number of sites: {1: 337}
+337 sites: 337 singleton sites, 0 (2-10) sites, 0 (>10) sites
+site checks: 354, success: 0
+
+iteration 14
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.422143936157 sec
+98 rules, 97 rule types, loglikelihood: -735.91871068
+memory: 282599424.0
+resident memory: 85004288.0
+337 sampling operations in total, distribution of number of sites: {1: 337}
+337 sites: 337 singleton sites, 0 (2-10) sites, 0 (>10) sites
+site checks: 351, success: 0
+
+iteration 15
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.464621067047 sec
+91 rules, 89 rule types, loglikelihood: -720.362633648
+memory: 286662656.0
+resident memory: 87977984.0
+337 sampling operations in total, distribution of number of sites: {1: 337}
+337 sites: 337 singleton sites, 0 (2-10) sites, 0 (>10) sites
+site checks: 349, success: 0
+
+iteration 16
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.409449100494 sec
+88 rules, 86 rule types, loglikelihood: -728.401691527
+memory: 288313344.0
+resident memory: 89595904.0
+337 sampling operations in total, distribution of number of sites: {1: 337}
+337 sites: 337 singleton sites, 0 (2-10) sites, 0 (>10) sites
+site checks: 346, success: 0
+
+iteration 17
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.462246894836 sec
+88 rules, 87 rule types, loglikelihood: -721.559838327
+memory: 294563840.0
+resident memory: 96354304.0
+337 sampling operations in total, distribution of number of sites: {1: 337}
+337 sites: 337 singleton sites, 0 (2-10) sites, 0 (>10) sites
+site checks: 345, success: 0
+
+iteration 18
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.37432718277 sec
+96 rules, 95 rule types, loglikelihood: -719.768300314
+memory: 294563840.0
+resident memory: 96354304.0
+337 sampling operations in total, distribution of number of sites: {1: 337}
+337 sites: 337 singleton sites, 0 (2-10) sites, 0 (>10) sites
+site checks: 342, success: 0
+
+iteration 19
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.401677131653 sec
+96 rules, 94 rule types, loglikelihood: -734.830476748
+memory: 294563840.0
+resident memory: 96624640.0
+337 sampling operations in total, distribution of number of sites: {1: 337}
+337 sites: 337 singleton sites, 0 (2-10) sites, 0 (>10) sites
+site checks: 342, success: 0
+
+iteration 20
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.393909931183 sec
+87 rules, 86 rule types, loglikelihood: -727.674893014
+memory: 294563840.0
+resident memory: 96624640.0
+337 sampling operations in total, distribution of number of sites: {1: 337}
+337 sites: 337 singleton sites, 0 (2-10) sites, 0 (>10) sites
+site checks: 342, success: 0
+dump trees
+
+iteration 21
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.434611082077 sec
+92 rules, 92 rule types, loglikelihood: -727.62112427
+memory: 294862848.0
+resident memory: 96894976.0
+337 sampling operations in total, distribution of number of sites: {1: 337}
+337 sites: 337 singleton sites, 0 (2-10) sites, 0 (>10) sites
+site checks: 343, success: 0
+
+iteration 22
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.335975170135 sec
+92 rules, 91 rule types, loglikelihood: -719.013823223
+memory: 294862848.0
+resident memory: 96894976.0
+337 sampling operations in total, distribution of number of sites: {1: 337}
+337 sites: 337 singleton sites, 0 (2-10) sites, 0 (>10) sites
+site checks: 342, success: 0
+
+iteration 23
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.37492108345 sec
+92 rules, 89 rule types, loglikelihood: -721.568516762
+memory: 296747008.0
+resident memory: 98516992.0
+337 sampling operations in total, distribution of number of sites: {1: 337}
+337 sites: 337 singleton sites, 0 (2-10) sites, 0 (>10) sites
+site checks: 344, success: 0
+
+iteration 24
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.400629997253 sec
+87 rules, 85 rule types, loglikelihood: -713.855001333
+memory: 297271296.0
+resident memory: 99057664.0
+337 sampling operations in total, distribution of number of sites: {1: 337}
+337 sites: 337 singleton sites, 0 (2-10) sites, 0 (>10) sites
+site checks: 347, success: 0
+
+iteration 25
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+check the root node
+root has more than 1 incoming edges
+iteration time: 0.413373947144 sec
+90 rules, 88 rule types, loglikelihood: -714.700887404
+memory: 299937792.0
+resident memory: 101761024.0
+337 sampling operations in total, distribution of number of sites: {1: 337}
+337 sites: 337 singleton sites, 0 (2-10) sites, 0 (>10) sites
+site checks: 349, success: 0
